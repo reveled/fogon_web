@@ -1,7 +1,0 @@
-/* ===================================
-	Horizontal Portfolio - RTL
-====================================== */
-.rtl .horizontal-portfolio-wrapper .portfolio-item .count {
-    left: inherit !important;
-    right: -5px;
-}

@@ -44,6 +44,14 @@
 /wp-content/index.php
 /wp-content/languages/
 
+# Plugins: ignorar todos excepto los premium/personalizados
+/wp-content/plugins/*
+!/wp-content/plugins/elementor-pro/
+!/wp-content/plugins/droip/
+!/wp-content/plugins/wordpress-mcp/
+!/wp-content/plugins/wp-all-import-pro/
+!/wp-content/plugins/wpai-woocommerce-add-on/
+
 # Todos los temas excepto el nuestro
 /wp-content/themes/*
 !/wp-content/themes/hello-theme-child-master/

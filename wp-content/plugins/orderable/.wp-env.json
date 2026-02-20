@@ -1,4 +1,0 @@
-{
-    "plugins": [ "https://downloads.wordpress.org/plugin/woocommerce.zip", "." ],
-    "phpVersion": "7.4"
-}
