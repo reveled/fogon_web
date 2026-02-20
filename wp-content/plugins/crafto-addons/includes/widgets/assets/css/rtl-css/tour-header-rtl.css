@@ -1,0 +1,39 @@
+/* ===================================
+	Tour Header - RTL
+====================================== */
+.rtl .trip-header-wrapper .pricing-wrapper {
+    text-align: left;
+}
+.rtl .trip-header-wrapper .title-rating-wrapper {
+    padding-right: 0;
+    padding-inline-end: 30px;
+    padding-left: 0;
+    padding-inline-start: 15px;
+}
+.rtl .trip-header-wrapper .title-rating-wrapper ul li {
+    margin-right: 0;
+    margin-inline-end: 20px;
+}
+.rtl .trip-header-wrapper .title-rating-wrapper ul li.trip-destinations i {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .trip-header-wrapper .review-star-icon {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .trip-header-wrapper .elementor-star-rating i {
+    margin-right: 0;
+    margin-inline-end: 1px;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 767px) {
+    .rtl .trip-header-wrapper .title-rating-wrapper {
+        padding-inline-end: 15px;
+        padding-inline-start: 15px;
+    }
+    .rtl .trip-header-wrapper .pricing-wrapper {
+        text-align: right;
+    }
+}

@@ -1,0 +1,8 @@
+<div class="scroll-to-next {{{ data.scroll_style_types }}}">
+	<a href="#{{{ data.scroll_target_id }}}" class="down-section-link{{{ data.enable_text_separator }}}">
+		<# if ( data.scroll_icon ) { #>
+			{{{ data.scroll_icon }}}
+		<# } #>
+		<span class="screen-reader-text"><?php echo esc_html__( 'Read More', 'crafto-addons' ); ?></span>
+	</a>
+</div>

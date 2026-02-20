@@ -1,0 +1,41 @@
+/* ===================================
+	Video Button - RTL
+====================================== */
+.rtl .video-icon-left .video-icon {
+    margin-right: 0 !important;
+    margin-inline-end: 10px;
+}
+.rtl .video-icon-right .video-icon {
+    margin-left: 0 !important;
+    margin-inline-start: 10px;
+}
+
+/* Video Button Style 04 */
+.rtl .video-button-style-4 .video-icon .video-title {
+    margin-left: 0;
+    margin-inline-start: -13px;
+}
+.rtl .video-button-style-4 .video-icon i,
+.rtl .video-button-style-4 .video-icon svg,
+.rtl .video-button-style-4 .video-icon img {
+    margin-left: 0;
+    margin-inline-start: 6px;
+}
+.rtl .video-button-style-4 .video-icon i+i,
+.rtl .video-button-style-4 .video-icon svg + svg,
+.rtl .video-button-style-4 .video-icon img + img {
+    transform: translateX(10px);
+}
+.rtl .video-button-style-4 .video-icon-box:hover .video-icon .video-title {
+    transform: translateX(-19px);
+}
+.rtl .video-button-style-4 .video-icon-box:hover .video-icon i,
+.rtl .video-button-style-4 .video-icon-box:hover .video-icon svg,
+.rtl .video-button-style-4 .video-icon-box:hover .video-icon img {
+    transform: translateX(-10px);
+}
+.rtl .video-button-style-4 .video-icon-box:hover .video-icon i+i,
+.rtl .video-button-style-4 .video-icon-box:hover .video-icon svg + svg,
+.rtl .video-button-style-4 .video-icon-box:hover .video-icon img + img {
+    transform: translateX(0);
+}

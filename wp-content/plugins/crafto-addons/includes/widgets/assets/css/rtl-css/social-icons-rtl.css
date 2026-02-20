@@ -1,0 +1,24 @@
+/* ===================================
+	Social Icons - RTL
+====================================== */
+/* Social Icon Default CSS Here */
+.rtl .default.social-icons-wrapper ul li:first-child a.elementor-icon,
+.rtl .social-icons-wrapper ul li:first-child a.elementor-icon {
+    margin-right: 0;
+}
+.rtl .default.social-icons-wrapper ul li:last-child a.elementor-icon,
+.rtl .social-icons-wrapper ul li:last-child a.elementor-icon {
+    margin-left: 0;
+}
+
+/* Social Icon Style 03 */
+.rtl .social-icon-style-3 ul li a.elementor-icon {
+	margin-left: 15px;
+    margin-right: 0;
+}
+
+/* Social Icon Style 05 */
+.rtl .social-icon-style-5.social-icons-wrapper ul li .social-icon-text {
+    margin-left: 0;
+    margin-right: 10px;
+}

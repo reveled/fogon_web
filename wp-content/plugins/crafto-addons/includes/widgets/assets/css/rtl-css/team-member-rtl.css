@@ -1,0 +1,44 @@
+/* ===================================
+    Team Member - RTL
+====================================== */
+/* Team Style 01 */
+.rtl .team-style-1 .social-icon a {
+    margin-right: 0 !important;
+    margin-inline-end: 22px;
+}
+.rtl .team-style-1 .social-icon a:last-child {
+    margin-right: 0 !important;
+    margin-inline-end: 0;
+}
+
+/* Team Style 03 */
+.rtl .team-style-3 .team-member-image .team-member-icon {
+    right: inherit;
+    left: -28px;
+}
+.rtl .team-style-3 .social-icon a {
+    margin-right: 0 !important;
+    margin-inline-end: 22px;
+}
+.rtl .team-style-3 .social-icon a:last-child {
+    margin-inline-end: 0 !important;
+}
+.rtl .team-style-3 .team-member-image .team-member-icon i,
+.rtl .team-style-3 .team-member-image .team-member-icon svg {
+    margin-right: 0;
+    margin-inline-end: 3px;
+}
+
+/* Team Style 05 */
+.rtl .team-style-5 .team-image .team-member-icon i,
+.rtl .team-style-5 .team-image .team-member-icon svg {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+/* Team Style 06 */
+.rtl .team-style-6 figcaption .social-icon, 
+.rtl .team-style-6 figcaption .team-member-designation {
+    margin-left: 0;
+    margin-inline-start: auto;
+}

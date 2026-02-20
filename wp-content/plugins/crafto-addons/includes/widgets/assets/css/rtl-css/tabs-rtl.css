@@ -1,0 +1,152 @@
+/* ===================================
+    Tabs - RTL
+====================================== */
+.rtl .nav-tabs .nav-item.nav-icon-left .nav-link i,
+.rtl .nav-tabs .nav-item.nav-icon-left .nav-link img,
+.rtl .nav-tabs .nav-item.nav-icon-left .nav-link svg {
+    margin-right: 0 !important;
+}
+.rtl .nav-tabs .nav-item.nav-icon-left .nav-link i {
+    margin-right: 0 !important;
+    margin-inline-end: 10px;
+}
+
+/* Tab Style 01 */
+.rtl .tab-style-1 .tab-content {
+    padding-left: 0px;
+    padding-inline-start: 15px;
+}
+
+/* Tab Style 02 */
+.rtl .tab-style-2 .nav-tabs .nav-item:first-child {
+    padding-inline-end: 20px;
+    padding-right: 0;
+}
+.rtl .tab-style-2 .nav-tabs .nav-item:last-child {
+    padding-left: 0;
+    padding-inline-start: 20px;
+}
+
+/* Tab Style 03 */
+.rtl .tab-style-3 .nav-tabs {
+    padding-right: 0;
+    padding-inline-end: 20px;
+}
+.rtl .tab-style-3 .nav-link .tab-icon {
+    margin-right: 0;
+    margin-inline-end: 10px;
+}
+.rtl .tab-style-3 .nav-link .price-wrap .tab-month {
+    margin-left: 0;
+    margin-inline-start: 10px;
+}
+
+/* Tab Style 04 */
+.rtl .tab-style-4 .nav-tabs>li.nav-item:first-child a:before {
+    right: auto;
+    left: 0;
+}
+.rtl .tab-style-4 .nav-tabs>li.nav-item:first-child a:after {
+    border-radius: 0 50em 50em 0;
+}
+.rtl .tab-style-4 .nav-tabs>li.nav-item:last-child a:before {
+    left: inherit;
+    right: 2px;
+}
+.rtl .tab-style-4 .nav-tabs>li.nav-item:last-child a:after {
+    border-radius: 50em 0 0 50em;
+}
+.rtl .tab-style-4 .nav-tabs>li.nav-item:last-child>a.nav-link .tab-nav-text {
+    margin-left: 0;
+    margin-inline-start: 15px;
+}
+.rtl .tab-style-4 .nav-tabs>li.nav-item:first-child>a.nav-link .tab-nav-text {
+    margin-right: 0;
+    margin-inline-end: 15px;
+}
+.rtl .tab-style-4 .nav-tabs li.nav-item i, 
+.rtl .tab-style-4 .nav-tabs li.nav-item svg, 
+.rtl .tab-style-4 .nav-tabs li.nav-item img {
+    margin-right: 0;
+    margin-inline-end: 15px;
+}
+.rtl .tab-style-4 .nav-tabs li.nav-item:last-child i,
+.rtl .tab-style-4 .nav-tabs li.nav-item:last-child svg, 
+.rtl .tab-style-4 .nav-tabs li.nav-item:last-child img {
+    margin-left: 0;
+    margin-inline-start: 15px;
+}
+
+/* Tab Style 05 */
+.rtl .tab-style-5 .nav-tabs .nav-item .nav-link {
+    border-right: 0;
+    border-inline-end: 1px solid #0000001A;
+}
+.rtl .tab-style-5 .nav-tabs .nav-item:first-child .nav-link {
+    border-inline-end: 1px solid #0000001A !important; 
+}
+.rtl .tab-style-5 .nav-tabs .nav-item:last-child .nav-link {
+    border-inline-end: 0 !important;
+}
+
+/* Tab Style 07 */
+.rtl .tab-style-7 .nav-tabs .nav-item .nav-link:hover .tabs-icon, 
+.rtl .tab-style-7 .nav-tabs .nav-item .nav-link.show .tabs-icon, 
+.rtl .tab-style-7 .nav-tabs .nav-item .nav-link.active .tabs-icon {
+    transform: translate(-50%, -50%);
+}
+.rtl .tab-style-7 .nav-tabs .nav-item .nav-link .tabs-icon {
+    right: inherit;
+    left: 0;
+}
+
+/* Tab Style 08 */
+.rtl .tab-style-8 .crafto-container-wrap {
+    margin-left: 0;
+    margin-inline-start: 8.33333333%;
+}
+.rtl .tab-style-8 ul {
+    padding-inline-start: 0;
+}
+.rtl .tab-style-8 .nav-tabs .nav-item .nav-link .sub-title {
+    margin-left: inherit;
+    margin-inline-start: auto;
+}
+.rtl .tab-style-8 .nav-tabs .nav-item .nav-link .tabs-number {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .tab-style-8 .nav-tabs .nav-item .nav-link:hover {
+    transform: translate3d(-10px, 0, 0);
+}
+
+/* Tab Style 09 */
+.rtl .tab-style-9 .nav-tabs .nav-item .nav-link .tabs-icon {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .tab-style-9 .nav-tabs .nav-item .nav-link .bg-hover {
+    transform-origin: right;
+}
+
+/* Tab Style 10 */
+.rtl .tab-style-10 .nav-tabs .nav-item .nav-link svg, 
+.rtl .tab-style-10 .nav-tabs .nav-item .nav-link i, 
+.rtl .tab-style-10 .nav-tabs .nav-item .nav-link img {
+    margin-right: 0;
+    margin-inline-end: 10px;
+}
+
+/* Tab Style 11 */
+.rtl .tab-style-11 .tab-content {
+    padding-left: 0px;
+    padding-inline-start: 50px;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 767px) {
+    .rtl .tab-style-5 .nav-tabs .nav-item:first-child .nav-link,
+    .rtl .tab-style-5 .nav-tabs .nav-item .nav-link {
+        border-inline-end: 0 !important;
+    }
+}

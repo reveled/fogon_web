@@ -1,0 +1,88 @@
+/* ===================================
+	Register Custom Post Types - RTL
+====================================== */
+body.rtl {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+/* Listing */
+.rtl .crafto-list-table-wrap {
+	margin-right: 2px;
+	margin-left: 20px;
+}
+.rtl .crafto-metatype-list-table,
+.rtl .crafto-posttype-list-table {
+	margin-right: 0;
+	margin-left: 20px;
+}
+.rtl .crafto-list-table-wrap .crafto-metatype-list-table,
+.rtl .crafto-list-table-wrap .crafto-posttype-list-table {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+/* Button */
+.rtl .crafto-list-table-wrap .crafto-list-table-items .crafto-list-table-item.actions a {
+	margin-right: 0;
+	margin-left: 14px;
+}
+
+/* Fields */
+.rtl .registered-post-type-main-wrapper {
+	margin-right: 2px;
+	margin-left: 20px;
+}
+.rtl .registered-post-type-main-wrapper .field-control .left-part {
+	padding-right: 0;
+	padding-left: 15px;
+}
+.rtl .registered-post-type-main-wrapper .main-title h3:after {
+	margin-left: inherit;
+	margin-right: auto;
+}
+.rtl .select2-container .select2-search--inline .select2-search__field {
+    padding-right: 0;
+    padding-left: 0;
+}
+.rtl .registered-post-type-main-wrapper .field-control .right-part select,
+.rtl .select2-container--default .select2-selection--multiple,
+.rtl .right-part select {
+	background-position: left 20px center;
+	padding-left: 30px;
+	padding-right: 25px;
+}
+.rtl .registered-post-type-main-wrapper .field-control .left-part {
+	padding-right: 0;
+	padding-left: 15px;
+}
+.rtl .select2-container .select2-selection--multiple .select2-selection__rendered {
+	padding-right: 0;
+	padding-left: 10px;
+}
+.rtl .select2-container--default .select2-selection--multiple .select2-selection__clear {
+	right: inherit;
+	left: 8px;
+}
+.rtl .select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.rtl .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+	float: left;
+	margin-left: 0;
+	margin-right: 2px;
+}
+
+/* Heading */
+.rtl .wrap .wp-heading-inline+.page-title-action {
+	margin-left: 0;
+	margin-right: 4px;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 1199px) {
+	.rtl .crafto-list-table-wrap .crafto-list-table-items .crafto-list-table-item.actions a {
+		margin-right: 0;
+		margin-left: 6px;
+	}
+}

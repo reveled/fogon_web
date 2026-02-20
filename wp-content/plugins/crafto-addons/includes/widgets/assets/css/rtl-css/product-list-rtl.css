@@ -1,0 +1,47 @@
+/* ===================================
+	Product List - RTL
+====================================== */
+/* Shop Standard */
+.rtl ul.shop-wrapper.shop-standard li .shop-box .shop-hover {
+    left: 12px;
+    right: inherit;
+}
+.rtl ul.shop-wrapper.shop-standard li .shop-box .shop-buttons-wrap a i {
+    margin-right: 0;
+    margin-inline-end: 6px;
+}
+
+/* Product Price */
+.rtl ul.shop-wrapper li .shop-footer .price-wrap .price ins {
+	margin-left: 0;
+    margin-right: 4px;
+}
+
+/* Sale And New */
+.rtl ul.shop-wrapper .sale-new-wrap span {
+    float: right;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 1199px) {
+    .rtl .woocommerce ul.products.crafto-shop-boxed li.product .product-buttons-wrap a,
+	.rtl ul.shop-wrapper li .shop-hover a, 
+	.rtl ul.shop-wrapper li .shop-hover .button, 
+	.rtl ul.shop-wrapper li .shop-hover .added_to_cart { 
+		border-left: 1px solid #e4e4e4 !important; 
+        border-right: 0 !important;
+	}
+    .rtl .woocommerce ul.products.crafto-shop-boxed li.product .product-buttons-wrap a:last-child,
+	.rtl ul.shop-wrapper li .shop-hover a:last-child, 
+	.rtl ul.shop-wrapper li .shop-hover .button:last-child, 
+	.rtl ul.shop-wrapper li .shop-hover .added_to_cart:last-child {
+		border-left: 0 !important;
+        border-right: 1px solid #e4e4e4; 
+	}
+    .rtl ul.shop-wrapper.shop-standard li .shop-box .shop-hover a,
+	.rtl .product-slider-style-2 .shop-hover a,
+	.rtl .product-slider-style-2 .shop-hover .button {
+        border-left: 0 !important;
+        border-right: 1px solid #e4e4e4 !important; 
+    }
+}

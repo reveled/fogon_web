@@ -1,0 +1,18 @@
+/* ===================================
+	Addons Custom Admin
+====================================== */
+#adminmenu .wp-menu-image img {
+	padding: 5px 0 0;
+	opacity: 1;
+	width: 24px;
+}
+.crafto-import-controls {
+	border: 1px solid rgba(0, 0, 0, .1);
+	margin: 10px 0;
+}
+.crafto-import-separator {
+	margin: 20px 0 15px;
+}
+.display-none {
+	display: none;
+}

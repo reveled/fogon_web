@@ -1,0 +1,21 @@
+/* ===================================
+	Mega Menu - Admin - RTL
+====================================== */
+.rtl .crafto-menu-trigger {
+    margin: 0 5px 0 -25px;
+}
+.rtl .crafto-menu-popup__actions .crafto-save-menu i {
+    margin: 1px 0 0 2px;
+}
+.rtl .crafto-menu-popup__content .crafto-content-tab-wrap-box select.menu-item-icon-position {
+	padding: 0 20px 0 40px;
+	background-position: center left 18px;
+}
+.rtl .crafto-content-tab-wrap-box .select-mega-menu {
+	padding: 7px 25px 7px 40px;
+	background-position: center left 20px;
+}
+.rtl .crafto-content-tab-wrap-box .select2-container--default .select2-selection--single .select2-selection__rendered {
+	padding-left: 30px;
+    padding-right: 20px;
+}

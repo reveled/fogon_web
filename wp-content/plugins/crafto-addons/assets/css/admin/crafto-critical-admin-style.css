@@ -1,0 +1,270 @@
+/* ===================================
+	Critical Admin
+====================================== */
+/* Listing */
+.crafto-list-table-heading,
+.crafto-list-table-items {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.crafto-list-table-heading {
+	border-bottom: 1px solid #e4e4e4;
+}
+.crafto-list-table-heading-cell {
+	font-size: 15px;
+	line-height: 20px;
+	color: #232323;
+	font-weight: 500;	
+}
+.crafto-list-table-heading-cell,
+.crafto-list-table-item {
+	width: 33.333%;
+	padding: 16px 20px 14px;
+	box-sizing: border-box;
+}
+.crafto-list-table-item.not-found {
+	width: 100%;
+}
+.taxonomie-col-4 .crafto-list-table-heading-cell {
+	width: 25%;
+}
+.crafto-list-table-item {
+	font-size: 15px;
+	line-height: 18px;
+}
+.crafto-list-table-item.actions > div a:last-child {
+	color: #b32d2e;
+}
+.crafto-list-table-items {
+	color: #7B7E81;
+}
+.crafto-critical-list-table {
+	background: #fff;
+	border: 1px solid #e4e4e4;
+	border-radius: 4px;
+	margin: 10px 20px 0 0;
+	overflow: hidden;
+}
+.crafto-critical-list-table .taxonomie-col-4 .crafto-list-table-heading-cell {
+	width: 33.333%;
+}
+.crafto-list-table-items:nth-child(odd) {
+	background: #f5f5f5;
+}
+.crafto-list-table-item.name {
+	font-weight: 500;
+}
+.crafto-list-table-item.name a {
+	text-decoration: none;
+}
+.crafto-list-table-item.name a:focus {
+	outline: none;
+	box-shadow: none;
+}
+.crafto-list-table-item.action > div {
+	display: flex;
+}
+.crafto-list-table-item.action > div span {
+	font-weight: 100;
+}
+.crafto-critical-css-wrap {
+	line-height: 1.2;
+	border-left: 0;
+	padding: 40px;
+	position: relative;
+	background-color: #fff;
+	margin: 10px 20px 0 2px;
+}
+.crafto-critical-css-wrap h3 {
+	margin-top: 30px;
+}
+.crafto-list-table-item.not-found {
+	color: #7B7E81;
+}
+.crafto-critical-css-wrap .crafto-critical-list-table-heading .crafto-list-table-heading {
+	background-color: #f5f5f5;
+}
+.crafto-critical-css-wrap .crafto-list-table-items:nth-child(odd) {
+	background: #fff;
+}
+.wp-core-ui .crafto-critical-css-wrap .crafto-critical-list-table-items .crafto-list-table-items {
+	border-bottom: 1px solid #e4e4e4;
+}
+.wp-core-ui .crafto-critical-css-wrap .crafto-critical-list-table-items .crafto-list-table-items:last-child {
+	border-bottom: 0;
+}
+.wp-core-ui .crafto-critical-css-wrap .crafto-critical-list-table-items .crafto-list-table-item {
+	padding: 14px 20px;
+}
+.crafto-critical-css-wrap .crafto-critical-list-table {
+	margin-right: 0;
+}
+
+/* Button */
+.crafto-critical-css-wrap .button.button-primary {
+	background: #532df5;
+	border-color: transparent;
+	min-height: 60px;
+	padding: 7px 35px 9px 35px;
+	transition: 0.3s;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: none;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 28px;
+	border-radius: 50px;
+	white-space: nowrap;
+	box-sizing: border-box;
+	border: 1px solid;
+	margin-left: 7px;
+	font-weight: 500;
+	position: relative;
+	flex-shrink: 0;
+}
+.crafto-critical-css-wrap .button.button-primary:hover {
+	background: #1D2327;
+}
+.crafto-critical-css-wrap .button.button-primary:focus{
+	outline: 0;
+	box-shadow: none;
+}
+.wp-core-ui .crafto-critical-css-wrap .crafto-list-table-items .button {
+	color: #fff;
+	border-color: #2b9516;
+	background: #2b9516;
+	padding: 2px 20px 4px;
+	font-size: 15px;
+	font-weight: 500;
+	margin-right: 5px;
+	transition: 0.3s;
+}
+.wp-core-ui .crafto-critical-css-wrap .crafto-list-table-items .button:hover {
+	background-color: #198105;
+	border-color: #198105;
+}
+.wp-core-ui .crafto-critical-css-wrap .crafto-list-table-items .button.crafto-delete-css {
+	color: #fff;
+	border-color: #cf0f10;
+	background: #cf0f10;
+	padding: 2px 20px 4px;
+	transition: 0.3s;
+	font-size: 15px;
+	font-weight: 500;
+}
+.wp-core-ui .crafto-critical-css-wrap .crafto-list-table-items .button.crafto-delete-css:hover {
+	background-color: #b10102;
+	border-color: #b10102;
+}
+
+/* Input */
+.crafto-critical-css-wrap .critical-input-wrap {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.crafto-critical-css-wrap input[type="url"] {
+	padding: 10px 25px 10px 25px;
+	background-color: #fff;
+	border: 1px solid #e4e4e4;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	height: 60px;
+	color: #1D2327;
+	font-size: 15px;
+	line-height: 2;
+	min-height: 30px;
+	border-radius: 50px;
+	width: 100% !important;
+}
+.crafto-critical-css-wrap input[type="url"]:focus {
+	outline: 1px solid #532df5;
+}
+.crafto-critical-css-wrap input[type="url"]::-webkit-input-placeholder {
+	color: #1D2327;
+}
+.crafto-critical-css-wrap input[type="url"]::-moz-placeholder {
+	color: #1D2327;
+}
+.crafto-critical-css-wrap input[type="url"]:-ms-input-placeholder {
+	color: #1D2327;
+}
+.crafto-critical-css-wrap input[type="url"]:-moz-placeholder {
+	color: #1D2327;
+}
+.crafto-critical-css-wrap input[type="url"].input-error {
+	outline: 1px solid #b32d2e;
+}
+
+/* Loading Spinner */
+.crafto-spinner {
+	width: 40px;
+	height: 40px;
+	border: 4px solid rgba(0, 0, 0, 0.2);
+	border-top-color: #0073aa;
+	border-radius: 50%;
+	animation: spin 1s linear infinite;
+	margin: 0 auto 10px;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.crafto-critical-css-wrap #crafto_loader {
+	position: absolute;
+	background-color: rgba(255, 255, 255, .8);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+}
+.crafto-critical-css-wrap #crafto_loader .crafto-spinner {
+	border-top-color: #232323;
+	width: 36px;
+	height: 36px;
+}
+
+/* Warning */
+.bottom-warning-wrap,
+.warning-wrap {
+	width: calc(100% - 22px);
+	border-radius: 4px;
+	background: #fcf8e3;
+	border: 1px solid #faebcc;
+}
+.bottom-warning-wrap h3,
+.warning-wrap h3 {
+	color: #232323;
+	font-size: 14px;
+	cursor: pointer;
+	box-shadow: none;
+	outline: none;
+	position: relative;
+	padding: 16px 30px;
+	margin: 0;
+}
+.bottom-warning-wrap span,
+.warning-wrap span {
+	position: relative;
+	right: inherit;
+	font-weight: 400;
+	font-size: 13px;
+}
+.bottom-warning-wrap {
+	margin-top: 0;
+	width: 100%;
+}
+.crafto-critical-css-wrap .crafto-critical-list-table ~ .bottom-warning-wrap {
+	margin-top: 20px;
+}
+
+/* Heading */
+.wrap .wp-heading-inline+.page-title-action {
+	margin-left: 4px;
+}

@@ -1,0 +1,79 @@
+/* ===================================
+	Minimal Portfolio - RTL
+====================================== */
+.rtl .portfolio-minimal-wrapper .portfolio-box {
+    padding-left: 0;
+    padding-inline-start: 100px;
+}
+.rtl .portfolio-minimal-wrapper .portfolio-item .svg-wrapper {
+    right: inherit;
+    left: 55px;
+}
+.rtl .portfolio-minimal-wrapper .portfolio-item.active .portfolio-title {
+    padding-left: 0;
+    padding-right: 0;
+    padding-inline-start: 70px;
+    padding-inline-end: 50px;
+}
+.rtl .portfolio-minimal-wrapper .portfolio-item .subtitle {
+    left: inherit;
+    right: 32px;
+}
+.rtl .portfolio-minimal-wrapper .portfolio-item.active .subtitle {
+    left: inherit;
+    right: 25px;
+}
+.rtl .portfolio-minimal-wrapper .portfolio-item .subtitle span {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    writing-mode: vertical-lr;
+}
+.rtl .portfolio-minimal-wrapper .portfolio-item.active .hover-title {
+    left: inherit;
+    right: 95px;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 1399px) {
+	.rtl .portfolio-minimal-wrapper .portfolio-box {
+		padding-left: inherit;
+        padding-inline-start: 30px;
+	}
+	.rtl .portfolio-minimal-wrapper .portfolio-item.active .portfolio-title {
+        padding-left: inherit;
+        padding-inline-start: 55px;
+	}
+	.rtl .portfolio-minimal-wrapper .portfolio-item.active .subtitle {
+        left: inherit;
+        right: 0;
+	}
+	.rtl .portfolio-minimal-wrapper .portfolio-item.active .hover-title {
+        left: inherit;
+        right: 65px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.rtl .portfolio-minimal-wrapper .portfolio-item.active .subtitle {
+		left: inherit;
+        right: 0;
+	}
+	.rtl .portfolio-minimal-wrapper .portfolio-item.active .hover-title {
+		left: inherit;
+        right: 60px;
+	}
+}
+
+@media (max-width: 767px) {
+	.rtl .portfolio-minimal-wrapper .portfolio-item .svg-wrapper {
+		right: inherit;
+        left: 22px;
+	}
+}
+
+@media (max-width: 575px) {
+	.rtl .portfolio-minimal-wrapper .portfolio-item .svg-wrapper {
+		right: inherit;
+        left: 20px;
+	}
+}

@@ -1,0 +1,34 @@
+/* ===================================
+    Navigation / Pagination - RTL 
+====================================== */
+/* Direction Vertical */
+.rtl .elementor-element.pagination-direction-vertical.pagination-vertical-left .swiper .swiper-pagination {
+    right: inherit;
+}
+.rtl .elementor-element.pagination-direction-vertical.pagination-vertical-right .swiper .swiper-pagination {
+    left: inherit;
+}
+
+/* Number Style 02 */
+.rtl .number-style-2 .swiper-pagination.swiper-numbers .swiper-pagination-bullet:after {
+    margin-right: 15px;
+    margin-left: 0;
+}
+.rtl .elementor-element.pagination-direction-vertical .number-style-2 .swiper-pagination.swiper-numbers .swiper-pagination-bullet:after {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Number Style 03 */
+.rtl .number-style-3.pagination-left .swiper-pagination-wrapper {
+    justify-content: end;
+}
+.rtl .number-style-3.pagination-right .swiper-pagination-wrapper {
+    justify-content: start;
+}
+
+@media (max-width: 767px) {
+    .rtl .pagination-direction-vertical.pagination-vertical-left .number-style-3.vertical .swiper-pagination-wrapper {
+        right: inherit;
+    }
+}

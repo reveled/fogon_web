@@ -1,0 +1,237 @@
+/* ===================================
+    Blog List - RTL
+====================================== */
+/* Author Name */
+.rtl .blog-grid .author-name {
+    right: 0;
+    left: unset;
+}
+
+/* Avatar */
+.rtl .crafto-blog-list .avatar,
+.rtl .crafto-blog-list .author-name img {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/* Like / Comment / Date */
+.rtl .blog-grid .blog-like span:first-of-type,
+.rtl .blog-grid .comment-link span:first-of-type,
+.rtl .blog-grid .post-meta a>span:first-of-type,
+.rtl .crafto-blog-list .post-meta a>span:first-of-type,
+.rtl .crafto-blog-list .blog-like span.posts-like,
+.rtl .crafto-blog-list .comment-link span.comment-text {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.rtl .crafto-blog-list .blog-like,
+.rtl .crafto-blog-list .comment-link,
+.rtl .crafto-blog-list .post-date,
+.rtl .blog-grid .post-date,
+.rtl .blog-grid .post-date a,
+.rtl .blog-grid .blog-like,
+.rtl .blog-grid .comment-link {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.rtl .crafto-blog-list .post-author-meta,
+.rtl .post-meta-grid .post-author-meta {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+/* Post Meta */
+.rtl .crafto-blog-list .post-meta>span:first-child a,
+.rtl .crafto-blog-list .post-meta>a:first-child,
+.rtl .blog-grid .post-date,
+.rtl .crafto-blog-list .post-date {
+    margin-right: 0;
+}
+
+/* Align Items Content */
+.rtl .blog-grid .blog-post.text-end .entry-title,
+.rtl .blog-grid .blog-post.text-end .entry-content,
+.rtl .blog-metro .blog-post.text-end .post-details,
+.rtl .blog-metro .blog-post.text-end .entry-title,
+.rtl .blog-full-image .blog-post.text-end .post-details,
+.rtl .blog-full-image .blog-post.text-end .entry-title,
+.rtl .blog-simple .blog-post.text-end .entry-title,
+.rtl .blog-modern .blog-post.text-end .post-meta,
+.rtl .blog-modern .blog-post.text-end .entry-content,
+.rtl .blog-modern .blog-post.text-end .entry-title,
+.rtl .blog-split .blog-post.text-end .entry-title,
+.rtl .blog-split .blog-post.text-end .entry-content,
+.rtl .blog-masonry .blog-post.text-end .entry-title,
+.rtl .blog-masonry .blog-post.text-end .entry-content,
+.rtl .blog-standard .blog-post.text-end .entry-title,
+.rtl .blog-standard .blog-post.text-end .entry-content,
+.rtl .blog-only-text .blog-post.text-end .entry-title,
+.rtl .blog-only-text .blog-post.text-end .entry-content {
+    margin-left: 0;
+    margin-right: auto;
+}
+.rtl .blog-grid .post-meta a>span.comment-text,
+.rtl .crafto-blog-list .post-meta a>span:last-of-type {
+    margin-left: 0;
+    margin-right: 3px;
+}
+
+/* Blog Grid */
+.rtl .blog-grid .post-author-meta {
+    margin-right: unset;
+    margin-left: auto;
+}
+.rtl .blog-grid .blog-post-images+.post-details .blog-category {
+    right: unset;
+    left: 20px;
+}
+.rtl .blog-grid .blog-category a {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+/* Blog Classic */
+.rtl .blog-classic .blog-category .post-date i {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+/* Blog Metro */
+.rtl .blog-metro figure .post-date i,
+.rtl .blog-masonry .post-date-wrapper i,
+.rtl .blog-side-image .post-date-wrapper i,
+.rtl .hero-blog .post-date-wrapper i {
+    margin-right: 0;
+    margin-left: 2px;
+}
+.rtl .blog-masonry .post-date-wrapper i,
+.rtl .blog-side-image .post-date-wrapper i,
+.rtl .hero-blog .post-date-wrapper i {
+    margin-left: 5px;
+}
+
+/* Blog Masonry */
+.rtl .blog-masonry .post-meta:after {
+    left: 0;
+    right: 25px;
+}
+.rtl .blog-masonry .post-meta .post-meta-comments~.post-meta-like {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.rtl .blog-masonry .post-meta .post-meta-like {
+    margin-left: 0;
+    margin-right: auto;
+}
+.rtl .blog-masonry .post-meta .post-meta-comments {
+    margin-left: unset;
+    margin-right: auto;
+}
+.rtl .blog-masonry .post-meta .post-meta-comments~.post-meta-like a {
+    margin-left: unset;
+    margin-right: 0;
+}
+.rtl .blog-masonry .blog-post-images .blog-category a {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+/* Blog Side Image */
+.rtl .blog-side-image .post-author-meta .horizontal-separator {
+    margin-right: 0 !important;
+    margin-inline-end: 7px;
+}
+.rtl .blog-side-image .blog-category a,
+.rtl .blog-modern .post-date i {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+/* Blog Standard */
+.rtl .blog-standard .post-meta>span.post-date i,
+.rtl .blog-standard .post-meta>span.post-author-meta i {
+    margin-right: 0;
+    margin-left: 4px;
+}
+.rtl .blog-standard .post-meta>span {
+    margin-right: 0 !important;
+    margin-inline-end: 20px;
+}
+.rtl .blog-standard .post-author-meta .avatar {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.rtl .blog-standard .post-meta>span a,
+.rtl .blog-standard .post-meta>span.post-meta-comments i,
+.rtl .blog-standard .post-meta>span.post-meta-like i  {
+    margin-right: 0;
+}
+.rtl .blog-standard .post-meta>span:last-child {
+    margin-left: 0 !important;
+}
+
+/* Blog Only Text */
+.rtl .blog-only-text .post-count {
+	right: inherit;
+    left: -8px;
+}
+.rtl .blog-only-text .blog-post:hover .post-count {
+	right: inherit;
+    left: 25px;
+}
+
+/* Blog Split */
+.rtl .blog-split .post-details {
+    padding-left: 0;
+    padding-inline-start: 40px;
+}
+
+/* Blog Hero */
+.rtl .hero-blog .post-author-meta,
+.rtl .hero-blog .post-author-meta {
+    margin: 0;
+}
+.rtl .hero-blog .post-meta .post-meta-like a,
+.rtl .blog-full-image .post-details .author-name {
+    margin-right: 0;
+}
+
+/* Blog Blockquote */
+.rtl .crafto-blog-list li .crafto-blog-blockquote {
+	text-align: right;
+}
+.rtl .crafto-blog-list li .crafto-blog-blockquote i {
+	float: right;
+	margin-right: 0;
+    margin-left: 35px;
+}
+
+/* Blog Full Image */
+.rtl .blog-full-image figure .post-date i {
+    margin-right: 0;
+    margin-left: 2px;
+}
+
+/* Blog Progress Bar */
+.rtl .crafto-donation-progress .donation-progress-bar {
+    right: 0;
+    left: inherit;
+}
+.rtl .crafto-donation-progress .elementor-progress-percentage {
+    left: -20px;
+    right: auto;
+}
+.rtl .donation-amount .goal-amount {
+    text-align: start;
+}
+.rtl .donation-amount .raised-amount {
+    text-align: end;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 575px) {
+    .rtl .blog-split .post-details {
+        padding-left: 0;
+        padding-inline-start: 0;
+    }
+}

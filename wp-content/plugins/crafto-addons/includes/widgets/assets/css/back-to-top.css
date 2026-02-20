@@ -1,0 +1,101 @@
+.crafto-scroll-progress {
+	position: fixed;
+	right: 20px;
+	z-index: 111;
+	top: 50%;
+	transition: all 0.3s linear;
+	opacity: 0;
+	transform: translateY(-50%);
+	mix-blend-mode: difference;
+	visibility: hidden;
+}
+.crafto-scroll-progress.visible {
+	opacity: 1;
+	visibility: visible;
+}
+.crafto-scroll-progress .crafto-scroll-top {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.crafto-scroll-progress .crafto-scroll-line {
+	width: 2px;
+	height: 60px;
+	position: relative;
+	background-color: rgba(255, 255, 255, 0.15);
+	color: inherit;
+	display: block;
+}
+.crafto-scroll-progress .crafto-scroll-point {
+	display: inline-block;
+	width: 100%;
+	position: absolute;
+	background-color: #fff;
+	top: 0px;
+	left: 0px;
+}
+.crafto-scroll-progress .crafto-scroll-text {
+	transform: rotate(180deg);
+	writing-mode: vertical-lr;
+	margin-bottom: 15px;
+	color: #fff;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+.crafto-scroll-progress.crafto-scroll-to-top-left {
+	right: inherit;
+	left: 20px;
+}
+
+/* Scroll top arrow */
+.crafto-scroll-top-arrow {
+	position: fixed;
+	right: 50px;
+	z-index: 111;
+	top: auto;
+	transform: none;
+	bottom: 50px;
+	mix-blend-mode: inherit; 
+	transition: all 0.3s linear;
+	opacity: 0;
+}
+.crafto-scroll-top-arrow.crafto-scroll-to-top-left {
+	right: auto;
+	left: 50px;
+}
+.crafto-scroll-top-arrow.visible {
+	opacity: 1;
+}
+.crafto-scroll-top-arrow .crafto-scroll-top {
+	background:#ffffff;
+	font-size: 17px;
+	line-height: 34px;
+	box-shadow: 0 0 25px rgba(23, 23, 23, .25);
+	height: 34px;
+	width: 34px;
+	padding: 0;
+	color:#232323;
+	border-radius: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.crafto-scroll-top-arrow .crafto-scroll-top svg {
+	font-size: 11px;
+    width: 1em;
+    height: auto;
+	transition: all 0.3s linear;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 1199px) {
+	.crafto-scroll-top-arrow.hide-in-tablet {
+		display: none;
+	} 
+	.crafto-scroll-progress.hide-in-tablet {
+		display: none;
+	} 
+}

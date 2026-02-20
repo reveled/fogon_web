@@ -1,0 +1,46 @@
+/* ===================================
+	Fancy Text Box - RTL
+====================================== */
+/* Fancy Text Box Style 02 */
+.rtl .fancy-text-box-style-2 .box-image .category-label {
+    left: 20px;
+    right: inherit;
+}
+
+/* Fancy Text Box Style 03 */
+.rtl .fancy-text-box-style-3 .box-image .category-label {
+	left:30px;
+	right: inherit;
+}
+
+/* Fancy Text Box Style 04 */
+.rtl .fancy-text-box-style-4 {
+    text-align: right;
+}
+.rtl .fancy-text-box-style-4 .fancy-text-border .elementor-icon {
+    left: 40px;
+    right: inherit;
+}
+.rtl .fancy-text-box-style-4 .price-title .price-number {
+	margin-right: 0;
+	margin-left: 2px;
+}
+
+/* Fancy Text Box Style 06 */
+.rtl .fancy-text-box-style-6 {
+    text-align: right;
+}
+.rtl .fancy-text-box-style-6 .fancy-text-box .content-box {
+    padding: 0 0 0 15px !important;
+}
+.rtl .fancy-text-box-style-6 .fancy-text-box .fancy-text-label span {
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 991px) {
+    .rtl .fancy-text-box-style-6 .fancy-text-box .fancy-text-label span:first-child {
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,20 @@
+/* ===================================
+	Editor Drak
+====================================== */
+:root {
+	--c-w-dark-color: #fff;
+	--c-w-dark-btn-color: #3a4046;
+	--c-w-dark-btn-hover-color: #2c2e32;
+	--c-w-light-color: #1e1f20;
+	--c-w-white-color: #1e1f20;
+	--c-w-mainly-blue-color: #3f444b;
+	--c-w-red-value-color: #3f444b;
+	--c-w-gainsboro-color: #2c2e32;
+	--c-w-cylindrical-coordinate-color: #9da5ae;
+	--c-w-mainly-red-color: #2c2e32;
+	--c-w-blizzard-blue-color: #f1d8ae;
+	--c-w-spanish-peanut-color: #a97b30;
+	--c-w-sister-loganberry-color: #833f4f;
+	--c-w-bright-grey-color: #515962;
+	--c-w-box-shadow: #000000e6;
+}

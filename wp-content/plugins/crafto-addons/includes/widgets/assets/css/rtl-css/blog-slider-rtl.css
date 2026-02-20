@@ -1,0 +1,40 @@
+/* ===================================
+    Blog Slider - RTL
+====================================== */
+/* Blog Post Style 02 */
+.rtl .blog-post-style-2 {
+    margin-right: 0;
+    margin-left: -50vw;
+}
+.rtl .blog-post-style-2 .post-content {
+    padding-right: 0;
+    padding-inline-end: 15px;
+}
+.rtl .blog-post-style-2 .post-title .entry-title {
+    margin-right: 0;
+    margin-inline-end: -10vw;
+}
+.rtl .blog-post-style-2 .post-images {
+    padding-left: 0;
+    padding-inline-start: 15px;
+}
+.rtl .blog-post-style-2 .author-name img {
+    margin-right: 0;
+    margin-inline-end: 15px;
+}
+.rtl .blog-post-style-2 .post-meta a> i + span:first-of-type,
+.rtl .blog-post-style-2 .post-meta .post-date i + span {
+    margin-left: 0;
+    margin-inline-start: 4px;
+}
+.rtl .blog-post-style-2 .blog-like span + span.posts-like,
+.rtl .blog-post-style-2 .comment-link span + span.comment-text {
+    margin-left: 0;
+    margin-inline-start: 4px;
+}
+
+/* Blog Post Style 03 */
+.rtl .blog-post-style-3 {
+    margin-left: -30vw;
+    margin-right: 0;
+}

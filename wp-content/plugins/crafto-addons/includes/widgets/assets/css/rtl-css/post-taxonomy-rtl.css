@@ -1,0 +1,35 @@
+/* ===================================
+    Post Taxonomy - RTL
+====================================== */
+/* Taxonomy Style 01 */
+.rtl .tags ul.post-taxonomy-style-1 li a, 
+.rtl .categories ul.post-taxonomy-style-1 li a {
+    margin-inline-end: 6px;
+    margin-inline-start: 0px;
+}
+
+/* Taxonomy Style 02 */
+.rtl .post-taxonomy-style-2 .category-title .category {
+    margin-right: 0;
+    margin-inline-end: 10px;
+}
+.rtl .post-taxonomy-style-2 .category-title .count-circle {
+    margin-left: 0;
+    margin-inline-start: auto;
+}
+
+/* Taxonomy Style 03 */
+.rtl .post-taxonomy-style-3 .category-title .category-icon {
+    right: inherit !important;
+    left: 25px;
+}
+.rtl .post-taxonomy-style-3 .category-title a:hover .category-icon {
+    left: 35px;
+}
+
+/* Taxonomy Style 04 */
+.rtl .categories ul.post-taxonomy-style-4 li span,
+.rtl .tags ul.post-taxonomy-style-4 li span {
+    right: inherit;
+    left: 0;
+}

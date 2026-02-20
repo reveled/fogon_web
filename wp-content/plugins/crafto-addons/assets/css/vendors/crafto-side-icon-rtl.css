@@ -1,0 +1,23 @@
+/* ===================================
+	Side Icon - RTL
+====================================== */
+.rtl .theme-demos {
+    right: 100%;
+}
+.rtl .theme-demos .demo-button-wrapper {
+    right: 0;
+    margin-right: 1px;
+    margin-left: 0;
+    transform: rotate(-90deg) translateY(0%);
+}
+.rtl .theme-demos .close-popup {
+    right: initial;
+    left: 10px;
+}
+.rtl.admin-bar .theme-demos .close-popup {
+    right: initial;
+    left: 20px;
+}
+.rtl .theme-demos.active {
+    transform: translateX(100%);
+}

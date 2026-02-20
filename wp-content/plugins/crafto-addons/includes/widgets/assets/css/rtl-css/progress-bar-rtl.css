@@ -1,0 +1,24 @@
+/* ===================================
+	Progress Bar - RTL
+====================================== */
+.rtl .crafto-progress-wrapper:not(.progress-style-2) .elementor-progress-bar .elementor-progress-percentage {
+	right: unset;
+	left: -20px;
+}
+.rtl .crafto-progress-wrapper.fixed .elementor-progress-bar .elementor-progress-percentage {
+	right: unset;
+	left: 0;
+}
+
+/* Progress Bar Style 02 */
+.rtl .progress-style-2 .elementor-progress-bar {
+	right: 0;
+}
+.rtl .progress-style-2 .elementor-progress-percentage {
+	left: 20px;
+	right: auto;
+}
+.rtl .progress-style-2 .elementor-progress-text {
+	right: 20px;
+	left: auto;
+}

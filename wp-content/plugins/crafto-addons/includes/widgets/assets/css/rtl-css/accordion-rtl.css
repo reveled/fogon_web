@@ -1,0 +1,62 @@
+/* ===================================
+	Accordion - RTL
+====================================== */
+.rtl .elementor-accordion .elementor-accordion-item .tab-item-icon {
+    left: -32px;
+    right: inherit;
+    transform: rotate(35deg) translateY(-50%);
+}
+.rtl .elementor-accordion .elementor-tab-title .icon {
+    margin-right: 0 !important;
+    margin-inline-end: 10px;
+}
+.rtl .elementor-accordion .elementor-tab-title .elementor-accordion-icon.elementor-accordion-icon-right {
+    right: inherit;
+    left: 0;
+    margin-right: 0 !important;
+}
+.rtl .elementor-accordion .elementor-tab-title .elementor-accordion-icon {
+	left: inherit;
+    right: 0;
+}
+.rtl .elementor-accordion .elementor-tab-title .elementor-accordion-icon-left+.number {
+    margin-left: 0;
+    margin-inline-end: 15px;
+    margin-right: 35px;
+}
+
+/* Accordion Style 01 */
+.rtl .accordion-style-1 .elementor-tab-title .number {
+    margin-right: 0;
+    margin-inline-end: 15px;
+}
+
+/* Accordion Style 02 */
+.rtl .accordion-style-2 .elementor-accordion-item {
+    padding-inline-end: 35px;
+    padding-inline-start: 75px;
+}
+.rtl .accordion-style-2 .elementor-tab-title .number {
+    left: inherit;
+    right: -13px;
+}
+
+/* Accordion Style 03 */
+.rtl .accordion-style-3 .event-time i, 
+.rtl .accordion-style-3 .event-time img,
+.rtl .accordion-style-3 .event-time svg {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .accordion-style-3 .number {
+	margin-right: 0;
+    margin-inline-end: 10px;
+}
+
+/* Responsive CSS here */
+@media (max-width: 767px) {
+    .rtl .accordion-style-3 .event-time {
+        margin-right: 0;
+        margin-inline-end: 20px;
+    }
+}

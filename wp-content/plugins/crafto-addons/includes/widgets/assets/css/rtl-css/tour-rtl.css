@@ -1,0 +1,37 @@
+/* ===================================
+	Tour - RTL
+====================================== */
+.rtl .tours-packages-wrapper.swiper-rtl .tours-content-wrapper .tours-day {
+    left: 0;
+    right: inherit;
+}
+.rtl .tours-packages-wrapper.swiper.swiper-rtl .tours-content-wrapper .destination-review-wrap .tours-reviews {
+    margin-right: 0;
+    margin-inline-end: auto;
+}
+
+/* Default */
+.rtl .tours-packages-wrapper .tours-content-wrapper .tours-day {
+    left: 0;
+    right: inherit;
+}
+.rtl .tours-packages-wrapper .tours-content-wrapper .destination-review-wrap .destinations {
+    margin-right: 0;
+    margin-inline-end: auto;
+}
+.rtl .tours-packages-wrapper .tours-content-wrapper .destination-review-wrap .destinations a i {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .tours-packages-wrapper .tours-content-wrapper .destination-review-wrap .review-star-icon {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .tours-packages-wrapper .tours-content-wrapper .tours-discount-price {
+    margin-left: 0;
+    margin-right: 2px;
+}
+.rtl .tours-packages-wrapper.swiper .tours-content-wrapper .destination-review-wrap .review-star-icon {
+    margin-left: 0;
+    margin-inline-end: 0;
+}

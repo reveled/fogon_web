@@ -44,9 +44,6 @@
 /wp-content/index.php
 /wp-content/languages/
 
-# Plugins de terceros (se gestionan por separado)
-/wp-content/plugins/
-
 # Todos los temas excepto el nuestro
 /wp-content/themes/*
 !/wp-content/themes/hello-theme-child-master/

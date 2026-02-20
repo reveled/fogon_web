@@ -1,0 +1,33 @@
+/* ===================================
+	AI Assistant - RTL
+====================================== */
+.rtl .ai-assistant-wrap .ai-assistant-header .chat-form-start-new {
+	margin-inline-start: auto;
+	margin-left: 0;
+}
+.rtl .ai-assistant-wrap .ai-assistant-header .chat-form-start-new i {
+	margin: 0 -6px 0 0;
+}
+.rtl .ai-assistant-wrap .ai-assistant-body .openai-chat-form button {
+	margin-left: 0;
+	margin-right: 15px;
+}
+.rtl .ai-assistant-wrap .chat-result .chat-list li.chat-list-item-user .chat-list-item-content {
+    margin-right: 0;
+	margin-left: 10px;
+}
+.rtl .ai-assistant-wrap .chat-result .chat-list li.chat-list-item-assistant .chat-list-item-content {
+    margin-left: 0;
+	margin-right: 10px;
+}
+.rtl .ai-assistant-wrap .chat-result .chat-list li.chat-list-item-loading .chat-list-item-loading-dot {
+	margin-right: 0;
+	margin-left: 3px;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 575px) {
+	.rtl .ai-assistant-wrap .ai-assistant-body .openai-chat-form button {
+		margin-right: 0;
+	}
+}

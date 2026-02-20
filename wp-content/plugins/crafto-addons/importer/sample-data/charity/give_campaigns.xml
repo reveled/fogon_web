@@ -1,0 +1,109 @@
+<campaigns>
+	<campaign>
+		<id>1</id>
+		<form_id>1315</form_id>
+		<campaign_title>Feed hungry children</campaign_title>
+		<short_desc>Lorem ipsum dolor consectetur adipiscing eiusmod tempor.</short_desc>
+		<campaign_image>https://crafto.themezaa.com/demo-images/2025/04/crafto-600x400-ph.jpg</campaign_image>
+		<campaign_goal>30000</campaign_goal>
+		<start_date>2024-03-27 08:17:43</start_date>
+		<date_created>2024-03-27 08:17:43</date_created>
+		<payment_id>1347</payment_id>
+	</campaign>
+
+	<campaign>
+		<id>2</id>
+		<form_id>1319</form_id>
+		<campaign_title>Promoting rights of children</campaign_title>
+		<short_desc>Lorem ipsum dolor consectetur adipiscing eiusmod tempor.</short_desc>
+		<campaign_image>https://crafto.themezaa.com/demo-images/2025/04/crafto-600x400-ph.jpg</campaign_image>
+		<campaign_goal>20000</campaign_goal>
+		<start_date>2024-03-27 08:26:48</start_date>
+		<date_created>2024-03-27 08:26:48</date_created>
+		<payment_id>1348</payment_id>
+	</campaign>
+
+	<campaign>
+		<id>3</id>
+		<form_id>1322</form_id>
+		<campaign_title>Help the poor for health</campaign_title>
+		<short_desc>Lorem ipsum dolor consectetur adipiscing eiusmod tempor.</short_desc>
+		<campaign_image>https://crafto.themezaa.com/demo-images/2025/04/crafto-600x400-ph.jpg</campaign_image>
+		<campaign_goal>40000</campaign_goal>
+		<start_date>2024-03-27 08:28:08</start_date>
+		<date_created>2024-03-27 08:28:08</date_created>
+		<payment_id>1349</payment_id>
+	</campaign>
+
+	<campaign>
+		<id>4</id>
+		<form_id>1325</form_id>
+		<campaign_title>Save childhood africa</campaign_title>
+		<short_desc>Lorem ipsum dolor consectetur adipiscing eiusmod tempor.</short_desc>
+		<campaign_image>https://crafto.themezaa.com/demo-images/2025/04/crafto-600x400-ph.jpg</campaign_image>
+		<campaign_goal>50000</campaign_goal>
+		<start_date>2024-03-27 08:30:01</start_date>
+		<date_created>2024-03-27 08:30:01</date_created>
+		<payment_id>1350</payment_id>
+	</campaign>
+
+	<campaign>
+		<id>5</id>
+		<form_id>1328</form_id>
+		<campaign_title>Build a secure happy life</campaign_title>
+		<short_desc>Lorem ipsum dolor consectetur adipiscing eiusmod tempor.</short_desc>
+		<campaign_image>https://crafto.themezaa.com/demo-images/2025/04/crafto-600x400-ph.jpg</campaign_image>
+		<campaign_goal>50000</campaign_goal>
+		<start_date>2024-03-27 08:42:51</start_date>
+		<date_created>2024-03-27 08:42:51</date_created>
+		<payment_id>1351</payment_id>
+	</campaign>
+
+	<campaign>
+		<id>6</id>
+		<form_id>1331</form_id>
+		<campaign_title>Education for children</campaign_title>
+		<short_desc>Lorem ipsum dolor consectetur adipiscing eiusmod tempor.</short_desc>
+		<campaign_image>https://crafto.themezaa.com/demo-images/2025/04/crafto-600x400-ph.jpg</campaign_image>
+		<campaign_goal>30000</campaign_goal>
+		<start_date>2024-03-27 08:47:00</start_date>
+		<date_created>2024-03-27 08:47:00</date_created>
+		<payment_id>1352</payment_id>
+	</campaign>
+
+	<campaign>
+		<id>7</id>
+		<form_id>2098</form_id>
+		<campaign_title>Save childhood jamaica</campaign_title>
+		<short_desc>Lorem ipsum dolor consectetur adipiscing eiusmod tempor.</short_desc>
+		<campaign_image>https://crafto.themezaa.com/demo-images/2025/04/crafto-600x400-ph.jpg</campaign_image>
+		<campaign_goal>50000</campaign_goal>
+		<start_date>2024-03-27 08:16:51</start_date>
+		<date_created>2024-03-27 08:16:51</date_created>
+		<payment_id>2643</payment_id>
+	</campaign>
+
+	<campaign>
+		<id>8</id>
+		<form_id>2100</form_id>
+		<campaign_title>Prioritize your time wisely.</campaign_title>
+		<short_desc>Lorem ipsum dolor consectetur adipiscing eiusmod tempor.</short_desc>
+		<campaign_image>https://crafto.themezaa.com/demo-images/2025/04/crafto-600x400-ph.jpg</campaign_image>
+		<campaign_goal>50000</campaign_goal>
+		<start_date>2024-03-27 08:15:27</start_date>
+		<date_created>2024-03-27 08:15:27</date_created>
+		<payment_id>2666</payment_id>
+	</campaign>
+
+	<campaign>
+		<id>9</id>
+		<form_id>2102</form_id>
+		<campaign_title>Importance of child education</campaign_title>
+		<short_desc>Lorem ipsum dolor consectetur adipiscing eiusmod tempor.</short_desc>
+		<campaign_image>https://crafto.themezaa.com/demo-images/2025/04/crafto-600x400-ph.jpg</campaign_image>
+		<campaign_goal>30000</campaign_goal>
+		<start_date>2024-03-27 08:14:49</start_date>
+		<date_created>2024-03-27 08:14:49</date_created>
+		<payment_id>2714</payment_id>
+	</campaign>
+</campaigns>

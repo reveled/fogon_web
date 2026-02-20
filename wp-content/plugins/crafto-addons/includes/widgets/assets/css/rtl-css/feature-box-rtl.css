@@ -1,0 +1,43 @@
+/* ===================================
+    Feature Box - RTL
+====================================== */
+/* Feature Box Style 01 */
+.rtl .feature-box-style-1 .feature-box-bubble {
+    right: -5px;
+    left: auto;
+}
+
+/* Feature Box Style 07 */
+.rtl .feature-box-style-7 .feature-box-wrap .feature-box-label {
+    right: inherit;
+    left: -5px;
+}
+
+/* Feature Box Style 08 */
+.rtl .feature-box-style-8 {
+    text-align: right;
+}
+.rtl .feature-box-style-8 .content-wrap {
+    border-left: 0;
+    border-inline-start: 1px solid #e4e4e4;
+}
+
+/* Feature Box Style 10 */
+.rtl .feature-box-style-10 .star-ratting-review .elementor-icon {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .feature-box-style-10 .star-ratting-review {
+    right: inherit;
+    left: 15px;
+}
+
+/* Feature Box Style 11 */
+.rtl .feature-box-style-11 .image-number-wrap .number {
+    right: inherit;
+    left: -10px;
+}
+.rtl .feature-box-style-11 .feature-box-title .title-link .title-separator {
+    left: inherit;
+    right: 0;
+}

@@ -1,0 +1,26 @@
+<div class="counter-container">
+	<# if ( data.day_show == 'yes' ) { #>
+	<div class="counter-box first">
+		<div class="number">{{{ data.dayDigit }}}</div>
+		<span>{{{ data.dayLabel }}}</span>
+	</div>
+	<# } #>
+	<# if ( data.hours_show == 'yes' ) { #>
+	<div class="counter-box">
+		<div class="number">{{{ data.hoursDigit }}}</div>
+		<span>{{{ data.hoursLabel }}}</span>
+	</div>
+	<# } #>
+	<# if ( data.minutes_show == 'yes' ) { #>
+	<div class="counter-box">
+		<div class="number">{{{ data.minutesDigit }}}</div>
+		<span>{{{ data.minutesLabel }}}</span>
+	</div>
+	<# } #>
+	<# if ( data.seconds_show == 'yes' ) { #>
+	<div class="counter-box">
+		<div class="number">{{{ data.secondsDigit }}}</div>
+		<span>{{{ data.secondsLabel }}}</span>
+	</div>
+	<# } #>
+</div>

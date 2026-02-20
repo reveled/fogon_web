@@ -1,0 +1,265 @@
+/* ===================================
+    Testimonial-carousel - RTL
+====================================== */
+.rtl .testimonials-wrapper .testimonials-carousel-image-box {
+    margin-right: 0;
+    margin-inline-end: 15px;
+}
+.rtl .testimonial-carousel-wrapper .carousel-title-box {
+    padding-right: 0;
+    padding-inline-end: 15px;
+}
+.rtl .el-testimonial-carousel-style-3 .testimonials-carousel-wrap,
+.rtl .el-testimonial-carousel-style-4 .testimonials-carousel-wrap,
+.rtl .el-testimonial-carousel-style-13 .testimonials-carousel-wrap,
+.rtl .el-testimonial-carousel-style-18 .testimonials-carousel-wrap {
+	padding-left: 0;
+    padding-inline-start: 15px;
+}
+
+/* Testimonial Carousal Style 01 */
+.rtl .testimonial-carousel-style-1 .testimonial-name-icon {
+    text-align: start;
+}
+.rtl .elementor-element .swiper.testimonial-carousel-style-1.navigation-left .navigation-wrapper .elementor-swiper-button {
+    margin: 0 0 0 10px;
+}
+.rtl .elementor-element .swiper.testimonial-carousel-style-1.navigation-right .navigation-wrapper .elementor-swiper-button {
+    margin: 0 10px 0 0;
+}
+
+/* Testimonial Carousal Style 03 */
+.rtl .elementor-element .testimonial-carousel-style-3 .elementor-swiper-button,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-3 .elementor-swiper-button {
+    right: 0;
+    left: inherit;
+}
+.rtl .elementor-element .testimonial-carousel-style-3 .elementor-swiper-button.elementor-swiper-button-prev,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-3 .elementor-swiper-button.elementor-swiper-button-prev {
+    right: 55px;
+}
+
+/* Testimonial Carousal Style 04 */
+.rtl .elementor-element .testimonial-carousel-style-4 .elementor-swiper-button,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-4 .elementor-swiper-button {
+    right: 0;
+    left: inherit !important;
+}
+.rtl .elementor-element .testimonial-carousel-style-4 .elementor-swiper-button.elementor-swiper-button-prev,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-4 .elementor-swiper-button.elementor-swiper-button-prev {
+    right: 55px;
+}
+.rtl .testimonial-carousel-style-4 .review-star-icon .star-rating-number {
+    margin-right: 0;
+    margin-inline-end: 10px;
+}
+.rtl .testimonial-carousel-wrapper .testimonials-carousel-wrap .testimonial-carousel-style-4 {
+    margin-right: 0 !important;
+}
+
+/* Testimonial Carousal Style 05 */
+.rtl .testimonial-carousel-style-5 .testimonials-carousel-image-box {
+    margin-inline-end: 0;
+}
+
+/* Testimonial Carousal Style 06 */
+.rtl .elementor-element .testimonial-carousel-style-6 .elementor-swiper-button,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-6 .elementor-swiper-button {
+    right: 0;
+    left: inherit !important;
+}
+.rtl .elementor-element .testimonial-carousel-style-6 .elementor-swiper-button.elementor-swiper-button-prev,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-6 .elementor-swiper-button.elementor-swiper-button-prev {
+    right: 80px;
+}
+.rtl .testimonial-carousel-style-6 .rating-icon-singular .elementor-star-rating {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+
+/* Testimonial Carousal Style 07 */
+.rtl .testimonial-carousel-style-7 .review-star-icon {
+    margin-left: 0;
+    margin-inline-start: auto;
+}
+.rtl .testimonial-carousel-style-7 .testimonial-carousel-name {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+
+/* Testimonial Carousal Style 08 */
+.rtl .elementor-element .testimonial-carousel-style-8.swiper .elementor-swiper-button-next {
+    right: inherit;
+    left: 6.5%;
+}
+.rtl .elementor-element .testimonial-carousel-style-8.swiper .elementor-swiper-button-prev {
+    left: 0%;
+    right: inherit !important;
+}
+.rtl .testimonial-carousel-style-8 .testimonial-name-icon {
+    padding-inline-end: 15px;
+    padding-inline-start: 55px;
+    border-inline-start: 1px solid #e4e4e4;
+    border-left: 0;
+}
+.rtl .testimonial-carousel-style-8 .testimonial-carousel-content, 
+.rtl .testimonial-carousel-style-8 .testimonial-carousel-title {
+    padding-left: 0;
+    padding-inline-start: 25px;
+}
+.rtl .testimonial-carousel-style-8 .testimonials-carousel-image-warp {
+    margin-right: 0;
+    margin-inline-end: 15px;
+}
+.rtl .testimonial-carousel-style-8 .testimonials-wrapper {
+    padding-inline-end: 55px;
+    padding-inline-start: 15px;
+}
+.rtl .testimonial-carousel-style-8 .testimonials-wrapper .testimonials-carousel-image-box {
+    margin-inline-end: 0;
+}
+.rtl .testimonial-carousel-style-8 .testimonials-carousel-icon-box {
+    right: unset;
+    left: -15px;
+}
+
+/* Testimonial Carousal Style 09 */
+.rtl .testimonial-carousel-style-9 .review-star-icon {
+    margin-right: 0;
+    margin-inline-end: 10px;
+}
+.rtl .testimonial-carousel-style-9 .testimonials-carousel-image-box {
+    margin-right: 0;
+    margin-inline-end: 25px;
+}
+
+/* Testimonial Carousal Style 13 */
+.rtl .testimonial-carousel-style-13.swiper-rtl .testimonial-name-icon {
+    padding: 0 16% 0 15px;
+}
+.rtl .testimonial-carousel-style-13.swiper-rtl .testimonial-name-icon .testimonial-carousel-name {
+    left: inherit;
+    right: 0;
+    transform: rotate(360deg);
+}
+.rtl .elementor-element .testimonial-carousel-style-13 .elementor-swiper-button,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-13 .elementor-swiper-button {
+    right: 0;
+    left: inherit !important;
+}
+.rtl .elementor-element .testimonial-carousel-style-13 .elementor-swiper-button.elementor-swiper-button-prev,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-13 .elementor-swiper-button.elementor-swiper-button-prev {
+    right: 55px;
+}
+
+/* Testimonial Carousal Style 15 */
+.rtl .swiper-rtl.testimonial-carousel-style-15 .testimonial-name-icon {
+    padding: 35px 95px 35px 35px;
+}
+.rtl .swiper-rtl.testimonial-carousel-style-15 .testimonial-name-icon .testimonial-carousel-name {
+    left: inherit;
+    right: 0;
+    transform: rotate(0deg);
+}
+.rtl .elementor-element .testimonial-carousel-style-15 .elementor-swiper-button-prev,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-15 .elementor-swiper-button-prev {
+    left: inherit;
+    right: 55px;
+}
+.rtl .elementor-element .testimonial-carousel-style-15 .elementor-swiper-button+.elementor-swiper-button, 
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-15 .elementor-swiper-button+.elementor-swiper-button {
+    left: inherit;
+    right: 0;
+}
+
+/* Testimonial Carousal Style 16 */
+.rtl .elementor-element.elementor-widget-crafto-testimonial-carousel .testimonial-carousel-style-16 .elementor-swiper-button {
+    left: inherit;
+}
+.rtl .elementor-element.elementor-widget-crafto-testimonial-carousel .testimonial-carousel-style-16 .elementor-swiper-button.elementor-swiper-button-prev {
+    left: inherit;
+    right: 55px;
+}
+.rtl .testimonial-carousel-style-16 .name-rating-wrap .rating-icon-singular {
+    margin-left: 0;
+    margin-inline-start: 10px;
+}
+.rtl .elementor-element.elementor-widget-crafto-testimonial-carousel .testimonial-carousel-style-16 .elementor-swiper-button {
+    right: 0;
+}
+
+/* Testimonial Carousal Style 18 */
+.rtl .elementor-element .testimonial-carousel-style-18 .elementor-swiper-button,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-18 .elementor-swiper-button {
+    right: 0;
+    left: inherit !important;
+}
+.rtl .elementor-element .testimonial-carousel-style-18 .elementor-swiper-button.elementor-swiper-button-prev,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-18 .elementor-swiper-button.elementor-swiper-button-prev {
+    right: 55px;
+}
+.rtl .el-testimonial-carousel-style-18 .testimonial-carousel-content-box .testimonial-carousel-number {
+    margin-right: 0;
+    margin-inline-end: 10px;
+}
+.rtl .testimonial-carousel-style-16 .testimonials-carousel-image-box,
+.rtl .testimonial-carousel-style-17 .testimonials-carousel-image-box,
+.rtl .testimonial-carousel-style-18 .testimonials-carousel-image-box {
+    margin-inline-end: 0;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 1199px) {
+    .rtl .el-testimonial-carousel-style-4 .testimonials-carousel-wrap {
+        padding-inline-start: 0;
+    }
+    .rtl .testimonial-carousel-style-8 .testimonial-name-icon {
+        padding-inline-start: 45px;
+    }
+}
+
+@media (max-width: 991px) {
+    .rtl .elementor-element .testimonial-carousel-style-8.swiper .elementor-swiper-button-next {
+        left: 50%;
+    }
+    .rtl .elementor-element .testimonial-carousel-style-8.swiper .elementor-swiper-button-prev {
+        right: 50% !important;
+        left: inherit !important;
+    }
+    .rtl .testimonial-carousel-style-8 .testimonial-name-icon {
+        border: 0;
+        padding-inline-start: 15px;
+    }
+    .rtl .testimonial-carousel-style-8 .testimonials-wrapper {
+        padding-inline-end: 15px;
+    }
+    .rtl .testimonial-carousel-style-8 .testimonial-carousel-content, 
+    .rtl .testimonial-carousel-style-8 .testimonial-carousel-title,
+    .rtl .el-testimonial-carousel-style-18 .testimonials-carousel-wrap {
+        padding: 0;
+    }
+    .rtl .testimonial-carousel-style-8 .testimonials-carousel-icon-box {
+        right: inherit;
+        left: 0;
+    }
+    .rtl .el-testimonial-carousel-style-13 .testimonial-carousel-wrapper .carousel-title-box {
+        padding-right: 15px;
+    }
+    .rtl .el-testimonial-carousel-style-13 .testimonials-carousel-wrap {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .rtl .testimonial-carousel-style-13.swiper-rtl .testimonial-name-icon {
+        padding: 0;
+    }
+    .rtl .testimonial-carousel-style-13 .testimonial-name-icon .testimonial-carousel-name {
+        width: 100%;
+        display: block;
+        text-align: inherit;
+    }
+    .rtl .testimonial-carousel-style-13.swiper-rtl .testimonial-name-icon .testimonial-carousel-name {
+        transform: rotate(0);
+    }
+}

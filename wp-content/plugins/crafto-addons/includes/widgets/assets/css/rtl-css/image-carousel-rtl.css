@@ -1,0 +1,12 @@
+/* ===================================
+	Image Carousel - RTL
+====================================== */
+.rtl .image-carousel-wrapper .elementor-button {
+    margin-left: 0;
+    margin-inline-start: 20px;
+}
+
+/* Image Carousel 02 */
+.rtl .image-carousel-2 a figure {
+	display: block;
+}

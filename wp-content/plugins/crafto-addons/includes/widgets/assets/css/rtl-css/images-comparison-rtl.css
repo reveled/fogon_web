@@ -1,0 +1,6 @@
+/* ===================================
+	Images Comparison - RTL
+====================================== */
+.rtl .crafto-image-compare {
+	direction: ltr;
+}

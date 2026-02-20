@@ -1,0 +1,315 @@
+/* ===================================
+    Frontend - RTL
+====================================== */
+/* Custom */
+.elementor-html .elementor-template-edit-cover span {
+    margin-left: 0;
+    margin-right: 8px;
+}
+.rtl .edit-crafto-section {
+    left: initial;
+    right: 15px;
+}
+
+/* Button */
+.rtl .elementor-animation-btn-expand-ltr .btn-hover-animation {
+    left: inherit;
+    right: 0;
+}
+.rtl .elementor-button .elementor-button-icon.elementor-align-icon-right,
+.swiper-rtl .elementor-button .elementor-button-icon.elementor-align-icon-right {
+    margin-inline-start: 6px;
+    margin-left: 0 !important;
+}
+.rtl .elementor-button .elementor-button-icon.elementor-align-icon-left,
+.swiper-rtl .elementor-button .elementor-button-icon.elementor-align-icon-left {
+    margin-inline-end: 6px;
+    margin-right: 0 !important;
+}
+.rtl .elementor-button.elementor-animation-btn-reveal-icon .elementor-button-text {
+    margin-left: 0;
+    margin-inline-start: 0;
+}
+.rtl .elementor-button.elementor-animation-btn-reveal-icon .elementor-button-icon.elementor-align-icon-right {
+    margin-left: 0;
+    margin-inline-start: -12px;
+}
+.rtl .elementor-button.elementor-animation-btn-reveal-icon.btn-reveal-icon-left .elementor-button-icon {
+    margin-right: 0;
+    margin-left: 0;
+    margin-inline-start: 0;
+    margin-inline-end: -12px;
+}
+.rtl .elementor-button.elementor-animation-btn-reveal-icon.btn-reveal-icon-left .elementor-button-text {
+    margin-right: 0;
+    margin-left: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+.rtl .elementor-button.elementor-animation-btn-reveal-icon:hover .elementor-button-text {
+    transform: translateX(9px);
+}
+.rtl .elementor-button.elementor-animation-btn-reveal-icon:hover .elementor-button-icon i,
+.rtl .elementor-button.elementor-animation-btn-reveal-icon:hover .elementor-button-icon svg {
+    opacity: 1;
+    transform: translateX(-9px);
+}
+.rtl .elementor-button.elementor-animation-btn-reveal-icon.btn-reveal-icon-left:hover .elementor-button-text {
+    transform: translateX(-8px);
+}
+.rtl .elementor-button.elementor-animation-btn-reveal-icon.btn-reveal-icon-left:hover .elementor-button-icon i,
+.rtl .elementor-button.elementor-animation-btn-reveal-icon.btn-reveal-icon-left:hover .elementor-button-icon svg {
+    opacity: 1;
+    transform: translateX(11px);
+}
+.rtl .elementor-animation-btn-switch-icon .elementor-button-text {
+    margin-left: 0;
+    margin-inline-start: -1em;
+}
+.rtl .elementor-animation-btn-switch-icon .elementor-button-icon {
+    margin-right: 0;
+    margin-left: 0;
+    margin-inline-end: 0;
+    margin-inline-start: 6px;
+}
+.rtl .elementor-animation-btn-switch-icon .elementor-button-icon i {
+    margin: 0;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+}
+.rtl .elementor-animation-btn-switch-icon .elementor-button-icon+.elementor-button-icon {
+    margin-left: 0;
+    margin-right: 0;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+    transform: translateX(1em);
+}
+.rtl .elementor-animation-btn-switch-icon.btn-icon-left .elementor-button-text {
+    margin-left: 0;
+    margin-right: 0;
+    margin-inline-start: 0;
+    margin-inline-end: -1em;
+}
+.rtl .elementor-animation-btn-switch-icon.btn-icon-left .elementor-button-icon {
+    margin-left: 0;
+    margin-right: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 6px;
+}
+.rtl .elementor-animation-btn-switch-icon.btn-icon-left .elementor-button-icon+.elementor-button-icon {
+    margin-right: 0 !important;
+    margin-inline-end: 0;
+    transform: translateX(-1em);
+}
+.rtl .crafto-button-wrapper .elementor-button.btn-icon-round .elementor-align-icon-right,
+.rtl .crafto-button-wrapper .elementor-button.btn-icon-circle .elementor-align-icon-right {
+    margin-left: 0 !important;
+    margin-inline-start: 12px;
+}
+.rtl .crafto-button-wrapper .elementor-button.btn-icon-round .elementor-align-icon-left,
+.rtl .crafto-button-wrapper .elementor-button.btn-icon-circle .elementor-align-icon-left {
+    margin-right: 0 !important;
+    margin-inline-end: 12px;
+}
+.rtl .crafto-button-wrapper .elementor-button.btn-double-border {
+    margin: 6px 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+.rtl .elementor-animation-btn-switch-icon:hover .elementor-button-text {
+    transform: translateX(-1.5em);
+}
+.rtl .elementor-animation-btn-switch-icon:hover .elementor-button-icon {
+    transform: translateX(-1em);
+}
+.rtl .elementor-animation-btn-switch-icon:hover .elementor-button-icon+.elementor-button-icon {
+    transform: translateX(0);
+}
+.rtl .elementor-animation-btn-switch-icon.btn-icon-left:hover .elementor-button-text {
+    transform: translateX(1.5em);
+}
+.rtl .elementor-animation-btn-switch-icon.btn-icon-left:hover .elementor-button-icon {
+    transform: translateX(1em);
+}
+.rtl .elementor-animation-btn-switch-icon.btn-icon-left:hover .elementor-button-icon+.elementor-button-icon {
+    transform: translateX(0);
+}
+
+/* Rounded / Circle Button */
+.rtl .crafto-button-wrapper .elementor-button.btn-icon-round,
+.rtl .crafto-button-wrapper .elementor-button.btn-icon-circle {
+    padding: 3px 20px 3px 3px;
+}
+.rtl .crafto-button-wrapper .elementor-button.btn-icon-round.btn-icon-left,
+.rtl .crafto-button-wrapper .elementor-button.btn-icon-circle.btn-icon-left {
+    padding: 3px 3px 3px 20px;
+}
+.rtl .simple-search-form .search-form-simple-box .search-input {
+    padding-inline-start: 15px;
+    padding-inline-end: 50px;
+}
+.rtl .simple-search-form .search-form-simple-box .search-button {
+    left: 0;
+    right: auto;
+}
+
+/* Crafto Text Editor */
+.rtl .elementor-widget-crafto-text-editor .elementor-drop-cap {
+    float: right;
+    margin-right: 0;
+    margin-inline-end: 20px;
+}
+
+/* Text Align */
+.rtl .elementor-align-right {
+    text-align: end;
+}
+.rtl .elementor-align-left {
+    text-align: start;
+}
+
+/* Promo Popup */
+.rtl .crafto-promo-popup-wrap .popup-prevent-text input[type="checkbox"].crafto-promo-show-popup,
+.rtl .crafto-promo-popup-wrap .popup-prevent-text input[type="radio"].crafto-promo-show-popup {
+    margin-inline-start: 0;
+    margin-inline-end: 7px;
+}
+.rtl input[type="checkbox"].crafto-promo-show-popup,
+.rtl input[type="radio"].crafto-promo-show-popup {
+    margin-right: 0;
+    margin-inline-end: 8px;
+    float: none;
+}
+
+/* Father Shadow */
+.rtl .feather-shadow-right {
+    mask-image: linear-gradient(to left, transparent 0%, #000000 0%, #000000 50%, transparent 80%);
+    -webkit-mask-image: linear-gradient(to left, transparent 0%, #000000 0%, #000000 50%, transparent 80%);
+}
+
+/* Search Results Loader */
+.rtl .simple-search-form .search-form-simple-box .search-dropdown ul,
+.rtl .simple-search-form .search-form-simple-box .search-dropdown p,
+.rtl .simple-search-form .search-form-simple-box .search-loader {
+    margin-left: 0;
+    margin-right: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+.rtl .simple-search-form .search-form-simple-box .search-dropdown ul li img {
+    margin-right: 15px;
+    margin-inline-end: 15px;
+}
+.rtl .simple-search-form .search-form-simple-box .search-loader:after {
+    margin-left: 0;
+    margin-right: 0;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+/* Tooltip */
+body.rtl:not([class*="woocommerce"]) .bs-tooltip-auto[data-popper-placement^=left] {
+    margin-right: 15px;
+    margin-inline-end: 15px;
+}
+body.rtl:not([class*="woocommerce"]) .bs-tooltip-auto[data-popper-placement^=right] {
+    margin-left: 0;
+    margin-inline-start: 15px;
+}
+
+/* Alert Box */
+.rtl .alert {
+    margin: 15px 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+.rtl .alert .close {
+    float: left;
+}
+.rtl .alert-box-style-01.alert,
+.rtl .alert-box-style-02.alert,
+.rtl .alert-box-style-03.alert,
+.rtl .alert-box-style-04.alert,
+.rtl .alert-box-style-05.alert {
+	text-align: right;
+}
+
+/* Alert Box Style 01 */
+.rtl .alert-box-style-01.alert {
+    padding-right: 30px;
+    padding-left: 25px;
+}
+
+/* Alert Box Style 02 */
+.rtl .alert-box-style-02.alert .close {
+    right: inherit;
+    left: 0;
+}
+.rtl .alert-box-style-02.alert {
+    padding-right: 30px;
+    padding-left: 60px;
+}
+
+/* Alert Box Style 03 */
+.rtl .alert-box-style-03.alert {
+    padding-right: 55px;
+    padding-left: 30px;
+}
+.rtl .alert-box-style-03.alert:before {
+    left: inherit;
+    right: 25px;
+}
+.rtl .alert-box-style-03.alert .close {
+    right: inherit;
+    left: -10px;
+}
+
+/* Alert Box Style 04 */
+.alert-box-style-04.alert {
+    border-right: 3px solid;
+    border-left: 0 solid;
+    padding-right: 30px;
+    padding-left: 25px;
+}
+
+/* Scroll Down Arrow / Mfp Popup */
+.rtl .scroll-to-next a,
+.rtl .scroll-to-next.scroll-down-type-1 .down-section-link {
+    margin-left: auto;
+    margin-right: auto;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+.rtl .mfp-wrap .mfp-arrow-left:before {
+    margin: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+.rtl .mfp-wrap .mfp-arrow-right:before {
+    margin: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;   
+}
+.rtl .mfp-ajax-holder,
+.rtl .mfp-wrap,
+.rtl .crafto-white-popup {
+    margin-left: auto;
+    margin-right: auto;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+.rtl .elementor-widget-crafto-heading .heading-prefix {
+    margin: 0;
+    margin-inline-end: 15px;
+}
+.rtl .mfp-wrap button.mfp-close,
+.rtl .mfp-wrap button.mfp-close:active,
+.rtl .mfp-wrap button.mfp-close:hover {
+    right: auto;
+    left: 30px;
+}
+
+/* Simple Menu */
+.rtl .page-layout .crafto-simple-menu a {
+	padding: 0 0 2px 0;
+}

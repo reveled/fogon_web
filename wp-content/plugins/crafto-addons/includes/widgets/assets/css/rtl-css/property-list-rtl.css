@@ -1,0 +1,15 @@
+/* ===================================
+	Property List - RTL
+====================================== */
+.rtl .property-wrapper .property-icon-box .icon-text img {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .property-wrapper .property-action-wrap .elementor-button-wrapper + .property-price {
+    margin-left: inherit;
+    margin-inline-start: auto;
+}
+.rtl .property-wrapper .property-images .property-status {
+    left: inherit;
+    right: 15px;
+}

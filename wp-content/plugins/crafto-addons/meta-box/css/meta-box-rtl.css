@@ -1,0 +1,198 @@
+/* ===================================
+Meta Box - RTL
+====================================== */
+body.rtl {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.rtl .select2-container--default .select2-selection--multiple,
+.rtl .right-part select {
+    background-position: left 20px center;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+.rtl .select2-container--default .select2-selection--multiple .select2-selection__clear {
+    left: 8px;
+    right: auto;
+}
+.rtl .select2-container .select2-selection--multiple .select2-selection__rendered {
+    padding-right: 0;
+    padding-left: 10px;
+}
+.rtl .left-part {
+    float: right;
+    padding-right: 0;
+    padding-left: 15px;
+}
+.rtl .right-part,
+.rtl .crafto_meta_box_tabs {
+    float: right;
+}
+.rtl .crafto_meta_box_tabs li a .group_title {
+    padding-left: 0;
+    padding-right: 30px;
+}
+.rtl .crafto_meta_box_tabs li a {
+    padding-right: 25px;
+    padding-left: 4px;
+}
+.rtl .crafto_meta_box_tabs li.active::before {
+    right: inherit;
+    left: -1px;
+}
+.rtl .crafto_meta_box_tab_content p {
+    float: right;
+    padding-right: 0;
+    padding-left: 10px;
+}
+.rtl .upload_field,
+.rtl .crafto_meta_box_tab_content input[type="text"],
+.rtl .upload_image_screenshort,
+.rtl .upload_image_screenshort_view,
+.rtl .custom-upload-media-image,
+.rtl .crafto_upload_button,
+.rtl .crafto_upload_button_multiple,
+.rtl .description_box .right-part .crafto_remove_button.button,
+.rtl .form-wrap .form-field,
+.rtl .separator_main_start_main_content_wrap,
+.rtl .separator_main_start_main_content_wrap>.separator_start_content_wrap,
+.rtl .separator_box,
+.rtl .right-part .short-description,
+.rtl .remove-image-button.button,
+.rtl .custom-meta-right-part .custom-media .upload-image-button, 
+.rtl .custom-meta-right-part .custom-media .remove-image-button {
+    float: right;
+}
+.rtl .crafto_upload_button,
+.rtl .crafto_upload_button_multiple,
+.rtl .custom-meta-right-part .custom-media .upload-image-button, 
+.rtl .custom-meta-right-part .custom-media .remove-image-button {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.rtl .crafto_preload_resources_box .right-part .dynamic-fields select {
+    margin-left: 0;
+    margin-right: 3%;
+}
+.rtl .crafto_preload_resources_box .add-field,
+.rtl .crafto_dequeue_scripts_box .add-dequeue-field {
+    margin-left: 0;
+    margin-right: 35%;
+}
+.rtl .crafto_tab_reset_settings,
+.rtl .wp-core-ui .crafto-custom-product-tab-repeater h3 .button {
+    float: left;
+}
+.rtl .block-editor-default-block-appender .block-editor-inserter {
+    left: 0;
+}
+.rtl .separator_main_start_main_content_wrap>.separator_box>.meta-heading-separator>h3 {
+    padding-left: 60px !important;
+    padding-right: 25px !important;
+}
+.rtl .separator_main_start_main_content_wrap>.separator_box>.meta-heading-separator>h3::after {
+    right: inherit;
+    left: 15px;
+}
+.rtl .multiple_images>div {
+    margin-right: 0;
+    margin-left: 30px;
+}
+.rtl .crafto_upload_button_multiple_category {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.rtl .crafto_upload_button_category,
+.rtl .upload-image-button.button,
+.rtl .crafto_remove_button_category {
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+}
+.rtl .right-part .alpha-color-picker-wrap .wp-picker-container .wp-color-result.button,
+.rtl .meta-box-sortables .custom-meta-right-part .alpha-color-picker-wrap .wp-picker-container .wp-color-result.button {
+    padding-right: 30px;
+    padding-left: 0;
+}
+.rtl .crafto-custom-product-tab-repeater .crafto-single-product-tab-main-structure .crafto-single-product-tab-title .ui-accordion-header-icon {
+    left: inherit;
+    right: 0;
+}
+.rtl .crafto-custom-product-tab-repeater .crafto-single-product-tab-details-title lable {
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+}
+.rtl .crafto_preload_resources_box .right-part .add-field,
+.rtl .crafto_dequeue_scripts_box .right-part .add-dequeue-field {
+    margin-right: 0;
+}
+.rtl .meta-box-sortables .custom-meta-left-part {
+    padding-right: 0;
+    padding-left: 15px;
+}
+.rtl .meta-box-sortables .custom-meta-right-part input,
+.rtl .meta-box-sortables .custom-meta-right-part textarea,
+.rtl .meta-box-sortables .custom-meta-right-part select {
+    background-position: top 16px left 20px;
+}
+.rtl .meta-box-sortables .custom-meta-right-part [type="checkbox"],
+.rtl .meta-box-sortables .custom-meta-right-part [type="radio"] {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.rtl .meta-box-sortables .custom-meta-right-part [type="checkbox"] + span,
+.rtl .meta-box-sortables .custom-meta-right-part [type="radio"] + span {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.rtl #crafto_tab_performance .select2-selection__clear {
+    right: inherit;
+    left: 32px;
+    margin-left: 0;
+}
+.rtl .select2-container .select2-search--inline .select2-search__field {
+    padding-right: 0;
+    padding-left: 0;
+}
+.rtl .select2-container--default .select2-selection--multiple .select2-selection__clear {
+    right: inherit;
+    left: 8px;
+}
+.rtl .select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.rtl .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    float: left;
+    margin-right: 2px;
+    margin-left: 0;
+}
+.rtl .custom-meta-right-part .select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding-left: 40px;
+    padding-right: 15px;
+}
+.rtl .custom-meta-right-part .select2-container--default .select2-selection--single .select2-selection__arrow {
+    right: inherit;
+    left: 5px;
+}
+.rtl .custom-meta-right-part .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    background-position: left 20px center;
+    margin-left: 0;
+    margin-right: -20px;
+}
+
+/* Responsive CSS Here */
+@media screen and (max-width: 1400px) {
+    .rtl .crafto_dequeue_scripts_box .add-dequeue-field,
+    .rtl .crafto_preload_resources_box .add-field {
+        margin-left: 0;
+        margin-right: 40%;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .rtl .crafto_meta_box_tabs li a .group_title {
+        left: inherit;
+        right: 50px;
+    }
+}

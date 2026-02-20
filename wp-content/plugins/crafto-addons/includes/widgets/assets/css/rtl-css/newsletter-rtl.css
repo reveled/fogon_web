@@ -1,0 +1,47 @@
+/* ===================================
+	Newsletter - RTL
+====================================== */
+.rtl .newsletter-form-wrapper .submit-icon.icon-left i,
+.rtl .newsletter-form-wrapper .submit-icon.icon-left svg {
+	margin-right: 0 !important;
+}
+.rtl .newsletter-form-wrapper .submit-icon.icon-right i,
+.rtl .newsletter-form-wrapper .submit-icon.icon-right svg {
+	margin-left: 0 !important;
+}
+.rtl .elementor-widget-crafto-newsletter form .newsletter-checkbox input[type="checkbox"] {
+    margin: 0 0 0 7px;
+}
+
+/* Newsletter Style 01 */
+.rtl .newsletter-style-1 form input {
+	padding-inline-end: 160px;
+	padding-inline-start: 32px;
+}
+.rtl .newsletter-style-1 form button[type="submit"] {
+	right: unset;
+	left: 0;
+	border-radius: 4px 0 0 4px;
+}
+.rtl .newsletter-style-1 form button[type="submit"] .icon-left + .submit-text {
+    margin-left: 0;
+    margin-inline-start: 3px;
+}
+.rtl .newsletter-style-1 form button[type="submit"] .icon-right + .submit-text {
+	margin-right: 0;
+	margin-inline-end: 3px;
+}
+
+/* Newsletter Style 02 */
+.rtl .newsletter-style-2 form button[type="submit"] {
+	right: inherit;
+	left: 0;
+}
+.rtl .newsletter-style-2 form input {
+	padding-right: 0;
+	padding-left: 120px;
+}
+.rtl .newsletter-style-2 form button[type="submit"] .icon-left + .submit-text {
+	margin-left: 0;
+	margin-inline-start: 3px;
+}

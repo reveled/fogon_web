@@ -1,0 +1,14 @@
+/* ===================================
+	Interactive Banner - RTL
+====================================== */
+/* Interactive Banner Style 03 */
+.rtl .interactive-banner-style-3 .interactive-banner .fancy-icon .elementor-icon {
+    margin-right: 0 !important;
+    margin-inline-end: 8px;
+}
+
+/* Interactive Banner Style 05 */
+.rtl .interactive-banner-style-5 .fancy-text-content .elementor-icon {
+    margin-left: 0 !important;
+    margin-inline-start: 20px;
+}

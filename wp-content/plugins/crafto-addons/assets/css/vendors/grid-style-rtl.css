@@ -1,0 +1,20 @@
+/* ===================================
+	Grid - RTL
+====================================== */
+/* Grid Filter */
+.rtl .grid-filter li:first-child,
+.rtl .blog-grid-filter li:first-child {
+	padding-right: 0 !important;
+}
+.rtl .grid-filter li:last-child,
+.rtl .blog-grid-filter li:last-child {
+	padding-left: 0 !important;
+}
+.rtl .grid-filter li:first-child span,
+.rtl .blog-grid-filter li:first-child span {
+	margin-right: 0 !important;
+}
+.rtl .grid-filter li:last-child span,
+.rtl .blog-grid-filter li:last-child span {
+	margin-left: 0 !important;
+}

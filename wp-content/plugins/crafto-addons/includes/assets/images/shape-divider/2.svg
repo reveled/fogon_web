@@ -1,0 +1,12 @@
+<svg class="lqd-custom-shape" xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 150 3000 100">
+<path class="elementor-shape-fill" d="M 0 190 C 1200 400 1200 50 3000 190 L 3000 350 L 0 350 L 0 190">
+<animate attributeName="d" dur="8s" values="M 0 190 C 1200 400 1200 50 3000 190 L 3000 350 L 0 350 L 0 190;
+                    M 0 190 C 400 50 400 400 3000 190 L 3000 350 L 0 350 L 0 190;
+                    M 0 190 C 1200 400 1200 50 3000 190 L 3000 350 L 0 350 L 0 190" repeatCount="indefinite"></animate>
+</path>
+<path class="elementor-shape-fill" d="M 0 190 C 1200 400 1200 50 3000 190 L 3000 350 L 0 350 L 0 190">
+<animate attributeName="d" dur="5s" values="M 0 190 C 1200 400 1200 50 3000 190 L 3000 350 L 0 350 L 0 190;
+                    M 0 190 C 400 50 400 400 3000 190 L 3000 350 L 0 350 L 0 190;
+                    M 0 190 C 1200 400 1200 50 3000 190 L 3000 350 L 0 350 L 0 190" repeatCount="indefinite"></animate>
+</path>
+</svg>

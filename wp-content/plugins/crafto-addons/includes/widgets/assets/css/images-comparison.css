@@ -1,0 +1,21 @@
+/* ===================================
+	Images Comparison
+====================================== */
+.crafto-image-compare {
+	position: relative !important;
+}
+.crafto-image-compare .icv__icv--horizontal .icv__img-a,
+.crafto-image-compare .icv__icv--horizontal .icv__img {
+	max-width: none;
+	height: inherit;
+}
+.crafto-image-compare .crafto-image-compare-overlay:before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.3);
+	z-index: 4;
+}

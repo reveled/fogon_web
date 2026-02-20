@@ -1,0 +1,47 @@
+/* ===================================
+	Looping Animation
+====================================== */
+.elementor-widget-crafto-looping-animation {
+	height: 100vh;
+}
+.looping-wrapper {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 1px;
+	height: 100vh;
+	left: 50%;
+	top: 0;
+}
+.looping-wrapper .el {
+	width: 2px;
+	height: 24vh;
+	background-color: var( --e-global-color-secondary, #232323 );
+	opacity: 1;
+	margin-top: -18vh;
+	transform-origin: 50% 100%;
+	position: absolute;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 991px) {
+	.looping-wrapper .el {
+		height: 18vh;
+		margin-top: -20vh;
+	}
+}
+
+@media (max-width: 767px) {
+	.looping-wrapper .el {
+		height: 145px;
+		margin-top: -145px;
+	}
+}
+
+@media (max-width: 575px) {
+	.looping-wrapper .el {
+		height: 105px;
+		margin-top: -105px;
+	}
+}

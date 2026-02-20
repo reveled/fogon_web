@@ -1,0 +1,30 @@
+/* ===================================
+    Product Taxonomy - RTL
+====================================== */
+/* Product Taxonomy Style 01 */
+.rtl .product-taxonomy-style-1 .count-circle {
+    right: inherit;
+    left: -10px;
+}
+
+/* Product Taxonomy Style 03 */
+.rtl .product-taxonomy-style-3 .categories-box .count-circle {
+    left: 20px;
+    right: inherit;
+}
+
+/* Product Taxonomy Style 04 */
+.rtl .product-taxonomy-style-4 .categories-box .category:hover span {
+    transform: translateX(12px);
+}
+.rtl .product-taxonomy-style-4 .categories-box .category span.hover {
+    margin-left: 0;
+    margin-inline-start: -24px;
+    transform: translateX(0);
+}
+.rtl .product-taxonomy-style-4 .categories-box .category span.hover i {
+    transform: translateX(-.24px);
+}
+.rtl .product-taxonomy-style-4 .categories-box .category:hover span.hover i {
+    transform: translateX(-12px);
+}

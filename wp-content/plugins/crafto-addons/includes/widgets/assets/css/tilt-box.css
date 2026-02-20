@@ -1,0 +1,35 @@
+/* ===================================
+	Tilt Box
+====================================== */
+.tilt-box-wrapper {
+	text-align: center;
+}
+.tilt-box-wrapper .tilt-box {
+	background-color: #c2c2c2;
+	border-radius: 5px;
+	padding: 12%;
+}
+.tilt-box-wrapper .elementor-icon {
+	font-size: 50px;
+	color: #000;
+	margin-bottom: 15px;
+}
+.tilt-box-wrapper .tilt-box svg,
+.tilt-box-wrapper .tilt-box img {
+	width: 50px;
+}
+.tilt-box-wrapper .title {
+	color: #000;
+	display: block;
+	margin-bottom: 5px;
+}
+.tilt-box-wrapper .title.text-stroke {
+	color: transparent;
+	-webkit-text-stroke-width: 2px;
+	stroke-width: 2px;
+	-webkit-text-stroke-color: #000;
+	stroke: #000;
+}
+.tilt-box-wrapper .content {
+	display: inline-block;
+}

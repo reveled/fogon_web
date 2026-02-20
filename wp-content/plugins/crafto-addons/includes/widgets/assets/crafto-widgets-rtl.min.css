@@ -1,0 +1,2438 @@
+/* ===================================
+	Accordion - RTL
+====================================== */
+.rtl .elementor-accordion .elementor-accordion-item .tab-item-icon {
+    left: -32px;
+    right: inherit;
+    transform: rotate(35deg) translateY(-50%);
+}
+.rtl .elementor-accordion .elementor-tab-title .icon {
+    margin-right: 0 !important;
+    margin-inline-end: 10px;
+}
+.rtl .elementor-accordion .elementor-tab-title .elementor-accordion-icon.elementor-accordion-icon-right {
+    right: inherit;
+    left: 0;
+    margin-right: 0 !important;
+}
+.rtl .elementor-accordion .elementor-tab-title .elementor-accordion-icon {
+	left: inherit;
+    right: 0;
+}
+.rtl .elementor-accordion .elementor-tab-title .elementor-accordion-icon-left+.number {
+    margin-left: 0;
+    margin-inline-end: 15px;
+    margin-right: 35px;
+}
+
+/* Accordion Style 01 */
+.rtl .accordion-style-1 .elementor-tab-title .number {
+    margin-right: 0;
+    margin-inline-end: 15px;
+}
+
+/* Accordion Style 02 */
+.rtl .accordion-style-2 .elementor-accordion-item {
+    padding-inline-end: 35px;
+    padding-inline-start: 75px;
+}
+.rtl .accordion-style-2 .elementor-tab-title .number {
+    left: inherit;
+    right: -13px;
+}
+
+/* Accordion Style 03 */
+.rtl .accordion-style-3 .event-time i, 
+.rtl .accordion-style-3 .event-time img,
+.rtl .accordion-style-3 .event-time svg {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .accordion-style-3 .number {
+	margin-right: 0;
+    margin-inline-end: 10px;
+}
+
+/* Responsive CSS here */
+@media (max-width: 767px) {
+    .rtl .accordion-style-3 .event-time {
+        margin-right: 0;
+        margin-inline-end: 20px;
+    }
+}
+/* ===================================
+	AI Assistant - RTL
+====================================== */
+.rtl .ai-assistant-wrap .ai-assistant-header .chat-form-start-new {
+	margin-inline-start: auto;
+	margin-left: 0;
+}
+.rtl .ai-assistant-wrap .ai-assistant-header .chat-form-start-new i {
+	margin: 0 -6px 0 0;
+}
+.rtl .ai-assistant-wrap .ai-assistant-body .openai-chat-form button {
+	margin-left: 0;
+	margin-right: 15px;
+}
+.rtl .ai-assistant-wrap .chat-result .chat-list li.chat-list-item-user .chat-list-item-content {
+    margin-right: 0;
+	margin-left: 10px;
+}
+.rtl .ai-assistant-wrap .chat-result .chat-list li.chat-list-item-assistant .chat-list-item-content {
+    margin-left: 0;
+	margin-right: 10px;
+}
+.rtl .ai-assistant-wrap .chat-result .chat-list li.chat-list-item-loading .chat-list-item-loading-dot {
+	margin-right: 0;
+	margin-left: 3px;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 575px) {
+	.rtl .ai-assistant-wrap .ai-assistant-body .openai-chat-form button {
+		margin-right: 0;
+	}
+}
+/* ===================================
+    Blog List - RTL
+====================================== */
+/* Author Name */
+.rtl .blog-grid .author-name {
+    right: 0;
+    left: unset;
+}
+
+/* Avatar */
+.rtl .crafto-blog-list .avatar,
+.rtl .crafto-blog-list .author-name img {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/* Like / Comment / Date */
+.rtl .blog-grid .blog-like span:first-of-type,
+.rtl .blog-grid .comment-link span:first-of-type,
+.rtl .blog-grid .post-meta a>span:first-of-type,
+.rtl .crafto-blog-list .post-meta a>span:first-of-type,
+.rtl .crafto-blog-list .blog-like span.posts-like,
+.rtl .crafto-blog-list .comment-link span.comment-text {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.rtl .crafto-blog-list .blog-like,
+.rtl .crafto-blog-list .comment-link,
+.rtl .crafto-blog-list .post-date,
+.rtl .blog-grid .post-date,
+.rtl .blog-grid .post-date a,
+.rtl .blog-grid .blog-like,
+.rtl .blog-grid .comment-link {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.rtl .crafto-blog-list .post-author-meta,
+.rtl .post-meta-grid .post-author-meta {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+/* Post Meta */
+.rtl .crafto-blog-list .post-meta>span:first-child a,
+.rtl .crafto-blog-list .post-meta>a:first-child,
+.rtl .blog-grid .post-date,
+.rtl .crafto-blog-list .post-date {
+    margin-right: 0;
+}
+
+/* Align Items Content */
+.rtl .blog-grid .blog-post.text-end .entry-title,
+.rtl .blog-grid .blog-post.text-end .entry-content,
+.rtl .blog-metro .blog-post.text-end .post-details,
+.rtl .blog-metro .blog-post.text-end .entry-title,
+.rtl .blog-full-image .blog-post.text-end .post-details,
+.rtl .blog-full-image .blog-post.text-end .entry-title,
+.rtl .blog-simple .blog-post.text-end .entry-title,
+.rtl .blog-modern .blog-post.text-end .post-meta,
+.rtl .blog-modern .blog-post.text-end .entry-content,
+.rtl .blog-modern .blog-post.text-end .entry-title,
+.rtl .blog-split .blog-post.text-end .entry-title,
+.rtl .blog-split .blog-post.text-end .entry-content,
+.rtl .blog-masonry .blog-post.text-end .entry-title,
+.rtl .blog-masonry .blog-post.text-end .entry-content,
+.rtl .blog-standard .blog-post.text-end .entry-title,
+.rtl .blog-standard .blog-post.text-end .entry-content,
+.rtl .blog-only-text .blog-post.text-end .entry-title,
+.rtl .blog-only-text .blog-post.text-end .entry-content {
+    margin-left: 0;
+    margin-right: auto;
+}
+.rtl .blog-grid .post-meta a>span.comment-text,
+.rtl .crafto-blog-list .post-meta a>span:last-of-type {
+    margin-left: 0;
+    margin-right: 3px;
+}
+
+/* Blog Grid */
+.rtl .blog-grid .post-author-meta {
+    margin-right: unset;
+    margin-left: auto;
+}
+.rtl .blog-grid .blog-post-images+.post-details .blog-category {
+    right: unset;
+    left: 20px;
+}
+.rtl .blog-grid .blog-category a {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+/* Blog Classic */
+.rtl .blog-classic .blog-category .post-date i {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+/* Blog Metro */
+.rtl .blog-metro figure .post-date i,
+.rtl .blog-masonry .post-date-wrapper i,
+.rtl .blog-side-image .post-date-wrapper i,
+.rtl .hero-blog .post-date-wrapper i {
+    margin-right: 0;
+    margin-left: 2px;
+}
+.rtl .blog-masonry .post-date-wrapper i,
+.rtl .blog-side-image .post-date-wrapper i,
+.rtl .hero-blog .post-date-wrapper i {
+    margin-left: 5px;
+}
+
+/* Blog Masonry */
+.rtl .blog-masonry .post-meta:after {
+    left: 0;
+    right: 25px;
+}
+.rtl .blog-masonry .post-meta .post-meta-comments~.post-meta-like {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.rtl .blog-masonry .post-meta .post-meta-like {
+    margin-left: 0;
+    margin-right: auto;
+}
+.rtl .blog-masonry .post-meta .post-meta-comments {
+    margin-left: unset;
+    margin-right: auto;
+}
+.rtl .blog-masonry .post-meta .post-meta-comments~.post-meta-like a {
+    margin-left: unset;
+    margin-right: 0;
+}
+.rtl .blog-masonry .blog-post-images .blog-category a {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+/* Blog Side Image */
+.rtl .blog-side-image .post-author-meta .horizontal-separator {
+    margin-right: 0 !important;
+    margin-inline-end: 7px;
+}
+.rtl .blog-side-image .blog-category a,
+.rtl .blog-modern .post-date i {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+/* Blog Standard */
+.rtl .blog-standard .post-meta>span.post-date i,
+.rtl .blog-standard .post-meta>span.post-author-meta i {
+    margin-right: 0;
+    margin-left: 4px;
+}
+.rtl .blog-standard .post-meta>span {
+    margin-right: 0 !important;
+    margin-inline-end: 20px;
+}
+.rtl .blog-standard .post-author-meta .avatar {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.rtl .blog-standard .post-meta>span a,
+.rtl .blog-standard .post-meta>span.post-meta-comments i,
+.rtl .blog-standard .post-meta>span.post-meta-like i  {
+    margin-right: 0;
+}
+.rtl .blog-standard .post-meta>span:last-child {
+    margin-left: 0 !important;
+}
+
+/* Blog Only Text */
+.rtl .blog-only-text .post-count {
+	right: inherit;
+    left: -8px;
+}
+.rtl .blog-only-text .blog-post:hover .post-count {
+	right: inherit;
+    left: 25px;
+}
+
+/* Blog Split */
+.rtl .blog-split .post-details {
+    padding-left: 0;
+    padding-inline-start: 40px;
+}
+
+/* Blog Hero */
+.rtl .hero-blog .post-author-meta,
+.rtl .hero-blog .post-author-meta {
+    margin: 0;
+}
+.rtl .hero-blog .post-meta .post-meta-like a,
+.rtl .blog-full-image .post-details .author-name {
+    margin-right: 0;
+}
+
+/* Blog Blockquote */
+.rtl .crafto-blog-list li .crafto-blog-blockquote {
+	text-align: right;
+}
+.rtl .crafto-blog-list li .crafto-blog-blockquote i {
+	float: right;
+	margin-right: 0;
+    margin-left: 35px;
+}
+
+/* Blog Full Image */
+.rtl .blog-full-image figure .post-date i {
+    margin-right: 0;
+    margin-left: 2px;
+}
+
+/* Blog Progress Bar */
+.rtl .crafto-donation-progress .donation-progress-bar {
+    right: 0;
+    left: inherit;
+}
+.rtl .crafto-donation-progress .elementor-progress-percentage {
+    left: -20px;
+    right: auto;
+}
+.rtl .donation-amount .goal-amount {
+    text-align: start;
+}
+.rtl .donation-amount .raised-amount {
+    text-align: end;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 575px) {
+    .rtl .blog-split .post-details {
+        padding-left: 0;
+        padding-inline-start: 0;
+    }
+}
+/* ===================================
+    Blog Slider - RTL
+====================================== */
+/* Blog Post Style 02 */
+.rtl .blog-post-style-2 {
+    margin-right: 0;
+    margin-left: -50vw;
+}
+.rtl .blog-post-style-2 .post-content {
+    padding-right: 0;
+    padding-inline-end: 15px;
+}
+.rtl .blog-post-style-2 .post-title .entry-title {
+    margin-right: 0;
+    margin-inline-end: -10vw;
+}
+.rtl .blog-post-style-2 .post-images {
+    padding-left: 0;
+    padding-inline-start: 15px;
+}
+.rtl .blog-post-style-2 .author-name img {
+    margin-right: 0;
+    margin-inline-end: 15px;
+}
+.rtl .blog-post-style-2 .post-meta a> i + span:first-of-type,
+.rtl .blog-post-style-2 .post-meta .post-date i + span {
+    margin-left: 0;
+    margin-inline-start: 4px;
+}
+.rtl .blog-post-style-2 .blog-like span + span.posts-like,
+.rtl .blog-post-style-2 .comment-link span + span.comment-text {
+    margin-left: 0;
+    margin-inline-start: 4px;
+}
+
+/* Blog Post Style 03 */
+.rtl .blog-post-style-3 {
+    margin-left: -30vw;
+    margin-right: 0;
+}
+/* ===================================
+	Brand Logo - RTL
+====================================== */
+.rtl .crafto-brand-logo-wrapper .brand-logo-info-wrapper {
+	right: auto;
+	left: 0;
+}
+/* ===================================
+    Contact Form - RTL
+====================================== */
+.rtl input[type="checkbox"],
+.rtl input[type="radio"] {
+	float: none;
+}
+.rtl .wpcf7-form,
+.rtl .wpcf7 input[type="url"],
+.rtl .wpcf7 input[type="email"],
+.rtl .wpcf7 input[type="tel"],
+.rtl .wpcf7 input[type="date"] {
+    direction: rtl;
+}
+.rtl .input-wrapper i,
+.rtl .input-wrapper svg {
+    left: inherit;
+    right: 25px;
+}
+.rtl .input-wrapper .select-arrow:after {
+    right: inherit;
+    left: 20px;
+}
+.rtl .input-wrapper .select-arrow.right:after {
+    right: inherit;
+    left: 10px;
+}
+
+/* Crafto Form Style 03 */
+.rtl .crafto-form-style-3 .input-wrapper i,
+.rtl .crafto-form-style-3 .input-wrapper svg {
+    right: 25px;
+    left: inherit;
+}
+.rtl .crafto-form-style-3 input:not(.wpcf7-submit){
+    padding-inline-start: 55px;
+    padding-inline-end: 25px;
+}
+.rtl .crafto-form-style-3 textarea {
+    padding-inline-start: 55px;
+    padding-inline-end: 15px;
+}
+
+/* Crafto Form Style 05 */
+.rtl .crafto-form-style-5 .input-wrapper i,
+.rtl .crafto-form-style-5 .input-wrapper svg {
+    left: 5px;
+    right: inherit;
+}
+
+/* Crafto Form Style 06 */
+.rtl .crafto-form-style-6 .input-wrapper i,
+.rtl .crafto-form-style-6 .input-wrapper svg {
+    left: 5px;
+    right: inherit;
+}
+
+/* Promo Popup */
+.rtl .crafto-promo-popup-wrap .contact-form-wrapper .crafto-form-style-3 .wpcf7-checkbox label input[type="checkbox"],
+.rtl .crafto-promo-popup-wrap .contact-form-wrapper .crafto-form-style-3 .wpcf7-checkbox label input[type="radio"] {
+	float: none;
+}
+/* ===================================
+	Content Box - RTL
+====================================== */
+/* Content Block Style 01 */
+.rtl .content-block-style-1 .content-wrap .review-number {
+	margin-left: 0;
+	margin-right: 8px;
+}
+
+/* Content Block Style 02 */
+.rtl .elementor-widget-crafto-content-block.elementor-position-left .content-block-style-2 .elementor-icon {
+	margin-right: 0;
+	margin-inline-end: var(--icon-box-icon-margin, 15px);;
+}
+.rtl .elementor-widget-crafto-content-block.elementor-position-right .content-block-style-2 .elementor-icon {
+	margin-left: 0;
+	margin-inline-start: var(--icon-box-icon-margin, 15px);
+}
+
+/* Content Block Style 03 */
+.rtl .content-block-style-3 .number {
+    left: inherit;
+	right: 0;
+	padding-left: 0;
+    padding-inline-start: 19%;
+}
+
+/* Content Block Style 04 */
+.rtl .content-block-style-4 {
+	text-align: right;
+}
+.rtl .content-block-style-4 .big-title {
+	left: inherit;
+	right: 50%;
+}
+.rtl .content-block-style-4:hover .big-title {
+	left: inherit;
+	right: -25%;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 1399px) {
+	.rtl .elementor-widget-crafto-content-block.elementor-laptop-position-right .content-block-style-2 .elementor-icon {
+		margin-left: 0;
+		margin-inline-start: var(--icon-box-icon-margin, 15px);
+	}
+	.rtl .elementor-widget-crafto-content-block.elementor-laptop-position-left .content-block-style-2 .elementor-icon {
+		margin-right: 0;
+		margin-inline-end: var(--icon-box-icon-margin, 15px);
+	}
+}
+
+@media (max-width: 1199px) {
+	.rtl .elementor-widget-crafto-content-block.elementor-tablet_extra-position-right .content-block-style-2 .elementor-icon {
+		margin-left: 0;
+		margin-inline-start: var(--icon-box-icon-margin, 15px);
+	}
+	.rtl .elementor-widget-crafto-content-block.elementor-tablet_extra-position-left .content-block-style-2 .elementor-icon {
+		margin-right: 0;
+		margin-inline-end: var(--icon-box-icon-margin, 15px);
+	}
+}
+
+@media (max-width: 911px) {
+	.rtl .elementor-widget-crafto-content-block.elementor-tablet-position-right .content-block-style-2 .elementor-icon {
+		margin-left: 0;
+		margin-inline-start: var(--icon-box-icon-margin, 15px);
+	}
+	.rtl .elementor-widget-crafto-content-block.elementor-tablet-position-left .content-block-style-2 .elementor-icon {
+		margin-right: 0;
+		margin-inline-end: var(--icon-box-icon-margin, 15px);
+	}
+}
+
+@media (max-width: 767px) {
+	.rtl .content-block-style-3 .number {
+		padding-inline-start: 0;
+		right: 0;
+	}
+	.rtl .elementor-widget-crafto-content-block.elementor-mobile_extra-position-right .content-block-style-2 .elementor-icon {
+		margin-left: 0;
+		margin-inline-start: var(--icon-box-icon-margin, 15px);
+	}
+	.rtl .elementor-widget-crafto-content-block.elementor-mobile_extra-position-left .content-block-style-2 .elementor-icon {
+		margin-right: 0;
+		margin-inline-end: var(--icon-box-icon-margin, 15px);
+	}
+}
+
+@media (max-width: 575px) {
+	.rtl .elementor-widget-crafto-content-block.elementor-mobile-position-right .content-block-style-2 .elementor-icon {
+		margin-left: 0;
+		margin-inline-start: var(--icon-box-icon-margin, 15px);
+	}
+	.rtl .elementor-widget-crafto-content-block.elementor-mobile-position-left .content-block-style-2 .elementor-icon {
+		margin-right: 0;
+		margin-inline-end: var(--icon-box-icon-margin, 15px);
+	}
+}
+/* ===================================
+    Content Carousel - RTL
+====================================== */
+.rtl .content-carousel-content-box .carousel-content + .content-carousel-wrapper {
+    padding-left: 0;
+    padding-inline-start: 15px;
+}
+
+/* Content Slider Style 03 */
+.rtl .elementor-element .content-carousel-style-3 .elementor-swiper-button,
+.rtl .elementor-element.elementor-pagination-position-outside .content-carousel-style-3 .elementor-swiper-button {
+    left: inherit !important;
+    right: 15px;
+}
+.rtl .elementor-element .content-carousel-style-3 .elementor-swiper-button+.elementor-swiper-button {
+    left: inherit !important;
+    right: 70px;
+}
+
+/* Content Slider Style 06 */
+.rtl .content-carousel-style-6 .content-image {
+    left: 0;
+    right: inherit;
+    text-align: left;
+}
+
+/* Content Slider Style 07 */
+.rtl .el-content-carousel-style-7 .content-carousel-content-box .carousel-content {
+    padding-left: 0;
+    padding-inline-start: 10%;
+}
+.rtl .el-content-carousel-style-7 .content-carousel-content-box .content-box {
+    margin-left: 0;
+    margin-inline-start: 100px;
+    padding-left: 0;
+    padding-inline-start: 60px;
+}
+.rtl .el-content-carousel-style-7 .content-box .heading {
+    margin-right: 0;
+    margin-inline-end: -10vw;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 1199px) {
+    .rtl .content-carousel-style-6 .content-image {
+        left: -70px;
+        right: inherit;
+    }
+    .rtl .el-content-carousel-style-7 .content-carousel-content-box .content-box {
+        margin-inline-start: 70px;
+        padding-inline-start: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .rtl .elementor-element .content-carousel-style-3 .elementor-swiper-button,
+    .rtl .elementor-element.elementor-pagination-position-outside .content-carousel-style-3 .elementor-swiper-button {
+        left: inherit !important;
+        right: 0;
+    }
+    .rtl .elementor-element .content-carousel-style-3 .elementor-swiper-button+.elementor-swiper-button {
+        left: inherit !important;
+        right: 55px;
+    }
+}
+@media (max-width: 767px) {
+    .rtl .el-content-carousel-style-7 .content-carousel-content-box .content-box {
+        padding-inline-start: 0;
+        margin-inline-start: 0;
+        padding: 0 30px;
+    }
+}
+/* ===================================
+	Countdown Timer - RTL
+====================================== */
+.rtl .countdown .counter-box .number:after {
+	right: inherit;
+	left: -22px;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 767px) {
+	.rtl .countdown .counter-box .number:after {
+		right: inherit;
+		left: -11px;
+	}
+}
+
+@media (max-width: 575px) {
+	.rtl .countdown .counter-box .number:after {
+		right: inherit;
+		left: -25px;
+	}
+}
+/* ===================================
+	Counter - RTL
+====================================== */
+/* Vertical Counter Style 01 */
+.rtl .vertical-counter-style-1 .number-suffix {
+    margin-left: 0 !important;
+    margin-inline-start: 3px;
+}
+.rtl .vertical-counter-style-1 .verticle-counter-icon,
+.rtl .vertical-counter-style-1 .number-prefix,
+.rtl .vertical-counter-style-3 .verticle-counter-icon,
+.rtl .vertical-counter-style-4 .elementor-counter-number-wrapper .number-prefix,
+.rtl .vertical-counter-style-4 .elementor-counter-number-wrapper .verticle-counter-icon {
+    margin-right: 0 !important;
+}
+
+/* Vertical Counter Style 03 */
+.rtl .vertical-counter-style-3 .number-prefix {
+    margin-right: 0 !important;
+}
+.rtl .vertical-counter-style-3 .number-suffix {
+    margin-left: 0 !important;
+}
+
+/* Vertical Counter Style 04 */
+.rtl .vertical-counter-style-4 .elementor-counter-number-wrapper .number-suffix {
+    margin-left: 0 !important;
+}
+/* ===================================
+	Dynamic Slider - RTL
+====================================== */
+.rtl .elementor-element .swiper.dynamic-slider .dynamic-slider-nav {
+    left: inherit;
+	right: 0;
+}
+.rtl .elementor-element .swiper.navigation-left.dynamic-slider .elementor-swiper-button.elementor-swiper-button-next,
+.rtl .elementor-element .swiper.navigation-center.dynamic-slider .elementor-swiper-button.elementor-swiper-button-next {
+	margin-left: 0;
+    margin-inline-start: 7px;
+}
+/* ===================================
+	Fancy Text Box - RTL
+====================================== */
+/* Fancy Text Box Style 02 */
+.rtl .fancy-text-box-style-2 .box-image .category-label {
+    left: 20px;
+    right: inherit;
+}
+
+/* Fancy Text Box Style 03 */
+.rtl .fancy-text-box-style-3 .box-image .category-label {
+	left:30px;
+	right: inherit;
+}
+
+/* Fancy Text Box Style 04 */
+.rtl .fancy-text-box-style-4 {
+    text-align: right;
+}
+.rtl .fancy-text-box-style-4 .fancy-text-border .elementor-icon {
+    left: 40px;
+    right: inherit;
+}
+.rtl .fancy-text-box-style-4 .price-title .price-number {
+	margin-right: 0;
+	margin-left: 2px;
+}
+
+/* Fancy Text Box Style 06 */
+.rtl .fancy-text-box-style-6 {
+    text-align: right;
+}
+.rtl .fancy-text-box-style-6 .fancy-text-box .content-box {
+    padding: 0 0 0 15px !important;
+}
+.rtl .fancy-text-box-style-6 .fancy-text-box .fancy-text-label span {
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 991px) {
+    .rtl .fancy-text-box-style-6 .fancy-text-box .fancy-text-label span:first-child {
+        margin-right: 0;
+    }
+}
+/* ===================================
+    Feature Box Carousel - RTL
+====================================== */
+/* Feature Box Carousel Style 01 */
+.rtl .elementor-element .feature-box-carousel-style-1 .elementor-swiper-button, 
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.feature-box-carousel-style-1 .elementor-swiper-button {
+    left: 0;
+    right: inherit !important;
+}
+.rtl .elementor-element .feature-box-carousel-style-1 .elementor-swiper-button.elementor-swiper-button-next {
+    left: 55px;
+}
+.rtl .feature-box-carousel-style-1 .feature-carousel-title-box p,
+.rtl .feature-box-carousel-style-1 .feature-carousel-title-box .heading {
+    margin-right: 0;
+    margin-inline-end: 15px;
+}
+.rtl .feature-box-carousel-style-1.swiper {
+    margin-right: 0;
+    margin-left: -40vw;
+}
+
+/* Feature Box Carousel Style 02 */
+.rtl .elementor-element .feature-box-carousel-style-2 .elementor-swiper-button {
+    left: inherit !important;
+    right: 0;
+}
+.rtl .elementor-element .feature-box-carousel-style-2 .elementor-swiper-button.elementor-swiper-button-prev {
+    right: 55px;
+}
+
+/* Feature Box Carousel Style 03 */
+.rtl .elementor-element .feature-box-carousel-style-3 .elementor-swiper-button {
+    left: inherit !important;
+    right: 0;
+}
+.rtl .elementor-element .feature-box-carousel-style-3 .elementor-swiper-button.elementor-swiper-button-prev {
+    right: 0;
+}
+.rtl .elementor-element .feature-box-carousel-style-3 .elementor-swiper-button.elementor-swiper-button-next {
+    right: 75px;
+}
+.rtl .feature-box-carousel-style-3 figure .label-box {
+    right: inherit;
+    left: 25px;
+}
+.rtl .feature-box-carousel-style-3 figure .label-box .label-icon {
+    margin-inline-start: -10px;
+    margin-inline-end: 5px;
+}
+
+/* Feature Box Carousel Style 04 */
+.rtl .feature-box-carousel-style-4 .feature-box-image-wrap .elementor-icon {
+    left: inherit;
+    right: 0;
+    margin-left: 0;
+    margin-inline-start: 50px;
+}
+
+/* Feature Box Carousel Style 05 */
+.rtl .elementor-element .feature-box-carousel-style-5 .elementor-swiper-button {
+    left: 0;
+    right: inherit !important;
+}
+.rtl .elementor-element .feature-box-carousel-style-5 .elementor-swiper-button-next {
+    left: 70px;
+}
+.rtl .feature-box-carousel-style-5 .feature-box-carousel-inner .label-icon {
+    right: 0;
+}
+.rtl .feature-box-carousel-style-5 .feature-box-carousel-inner .feature-box-carousel-content-wrap + .feature-box-carousel-link {
+    margin-left: 0;
+    margin-inline-start: auto;
+}
+.rtl .feature-box-carousel-style-5 .feature-box-carousel-inner .elementor-button {
+    right: 0;
+    left: inherit;
+}
+.rtl .feature-box-carousel-style-5 .featurebox-heading-wrapper {
+    padding-right: 0;
+    padding-inline-end: 30px;
+}
+.rtl .feature-box-carousel-style-5.swiper {
+    margin-right: 0;
+    margin-left: -25vw;
+}
+
+/* Feature Box Carousel Style 06 */
+.rtl .feature-box-carousel-style-6.swiper {
+    margin-right: 0;
+    margin-inline-end: -20vw;
+}
+.rtl .elementor-element .feature-box-carousel-style-6 .elementor-swiper-button {
+    left: 0;
+    right: inherit !important;
+}
+.rtl .elementor-element .feature-box-carousel-style-6 .elementor-swiper-button.elementor-swiper-button-next {
+    left: 55px;
+}
+.rtl .feature-box-carousel-style-6 .feature-carousel-title-box .heading {
+    margin-right: 0;
+    margin-inline-end: 60px;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 767px) {
+    .rtl .elementor-element .feature-box-carousel-style-5 .elementor-swiper-button-next {
+        left: inherit !important;
+        right: 0 !important;
+    }
+    .rtl .elementor-element .feature-box-carousel-style-5 .elementor-swiper-button-prev {
+        left: inherit !important;
+        right: 70px !important;
+    }
+    .rtl .feature-box-carousel-style-1.swiper .feature-box-nav {
+        right: 0;
+        left: inherit;
+    }
+    .rtl .feature-box-carousel-style-1.swiper .feature-box-nav .elementor-swiper-button.elementor-swiper-button-next, 
+    .rtl .feature-box-carousel-style-5.swiper .feature-box-nav .elementor-swiper-button.elementor-swiper-button-next {
+        margin-left: 0;
+        margin-inline-start: 10px;
+    }
+    .rtl .feature-box-carousel-style-6.swiper {
+        margin-inline-end: 0;
+    }
+    .rtl .elementor-element .feature-box-carousel-style-6 .elementor-swiper-button {
+        left: inherit;
+        right: 66px !important;
+    }
+    .rtl .elementor-element .feature-box-carousel-style-6 .elementor-swiper-button.elementor-swiper-button-next {
+        right: 0 !important;
+        left: inherit !important;
+    }
+    .rtl .feature-box-carousel-style-5.swiper {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .rtl .feature-box-carousel-style-1.swiper {
+        margin-left: 0;
+    }
+}
+/* ===================================
+    Feature Box - RTL
+====================================== */
+/* Feature Box Style 01 */
+.rtl .feature-box-style-1 .feature-box-bubble {
+    right: -5px;
+    left: auto;
+}
+
+/* Feature Box Style 07 */
+.rtl .feature-box-style-7 .feature-box-wrap .feature-box-label {
+    right: inherit;
+    left: -5px;
+}
+
+/* Feature Box Style 08 */
+.rtl .feature-box-style-8 {
+    text-align: right;
+}
+.rtl .feature-box-style-8 .content-wrap {
+    border-left: 0;
+    border-inline-start: 1px solid #e4e4e4;
+}
+
+/* Feature Box Style 10 */
+.rtl .feature-box-style-10 .star-ratting-review .elementor-icon {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .feature-box-style-10 .star-ratting-review {
+    right: inherit;
+    left: 15px;
+}
+
+/* Feature Box Style 11 */
+.rtl .feature-box-style-11 .image-number-wrap .number {
+    right: inherit;
+    left: -10px;
+}
+.rtl .feature-box-style-11 .feature-box-title .title-link .title-separator {
+    left: inherit;
+    right: 0;
+}
+/* ===================================
+	Heading - RTL
+====================================== */
+/* Heading Vertical */
+.rtl .elementor-title-vertical-text .elementor-widget-container {
+    transform: rotate(-360deg);
+}
+
+/* Separator */
+.rtl .crafto-primary-title .separator:has(.image-separator),
+.rtl .slide-title .separator:has(.image-separator) {
+	display: inline-block;
+}
+/* ===================================
+	Horizontal Portfolio - RTL
+====================================== */
+.rtl .horizontal-portfolio-wrapper .portfolio-item .count {
+    left: inherit !important;
+    right: -5px;
+}
+/* ===================================
+	Icon Box - RTL
+====================================== */
+.rtl .elementor-widget-crafto-icon-box.elementor-position-left .elementor-icon-box-icon,
+.rtl .elementor-widget-crafto-icon-box.elementor-position-left .crafto-image-box-img {
+    margin-right: 0 !important;
+    margin-left: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 15px;
+}
+.rtl .elementor-widget-crafto-icon-box.elementor-position-left .elementor-icon-box-wrapper,
+.rtl .elementor-widget-crafto-icon-box.elementor-position-left .crafto-image-box-wrapper {
+    text-align: start;
+}
+.rtl .elementor-widget-crafto-icon-box .flash-lable {
+    left: 0;
+    right: inherit;
+}
+.rtl .elementor-widget-crafto-icon-box.elementor-position-right .elementor-icon-box-icon, 
+.rtl .elementor-widget-crafto-icon-box.elementor-position-right .crafto-image-box-img {
+    margin-left: 0 !important;
+    margin-inline-start: 15px;
+}
+/* ===================================
+	Image Carousel - RTL
+====================================== */
+.rtl .image-carousel-wrapper .elementor-button {
+    margin-left: 0;
+    margin-inline-start: 20px;
+}
+
+/* Image Carousel 02 */
+.rtl .image-carousel-2 a figure {
+	display: block;
+}
+/* ===================================
+	Images Comparison - RTL
+====================================== */
+.rtl .crafto-image-compare {
+	direction: ltr;
+}
+/* ===================================
+	Interactive Banner - RTL
+====================================== */
+/* Interactive Banner Style 03 */
+.rtl .interactive-banner-style-3 .interactive-banner .fancy-icon .elementor-icon {
+    margin-right: 0 !important;
+    margin-inline-end: 8px;
+}
+
+/* Interactive Banner Style 05 */
+.rtl .interactive-banner-style-5 .fancy-text-content .elementor-icon {
+    margin-left: 0 !important;
+    margin-inline-start: 20px;
+}
+/* ===================================
+	List - RTL
+====================================== */
+.rtl .elementor-widget .elementor-icon-list-icon+.elementor-icon-list-text {
+    padding-left: 0;
+    padding-inline-start: 5px;
+}
+.rtl .elementor-widget .elementor-icon-list-item .elementor-icon-list-icon,
+.rtl .elementor-widget.elementor-align-left .elementor-icon-list-item,
+.rtl .elementor-widget.elementor-align-left .elementor-icon-list-item a {
+    text-align: start;
+}
+/* ===================================
+	Marquee Slider - RTL
+====================================== */
+.rtl .swiper-rtl.marquee-slider .swiper-slider {
+	direction: rtl;
+}
+.rtl .swiper-rtl.marquee-slider i, 
+.rtl .swiper-rtl.marquee-slider svg {
+	margin-right: 0 !important;
+	margin-inline-end: 15px;
+}
+/* ===================================
+	Minimal Portfolio - RTL
+====================================== */
+.rtl .portfolio-minimal-wrapper .portfolio-box {
+    padding-left: 0;
+    padding-inline-start: 100px;
+}
+.rtl .portfolio-minimal-wrapper .portfolio-item .svg-wrapper {
+    right: inherit;
+    left: 55px;
+}
+.rtl .portfolio-minimal-wrapper .portfolio-item.active .portfolio-title {
+    padding-left: 0;
+    padding-right: 0;
+    padding-inline-start: 70px;
+    padding-inline-end: 50px;
+}
+.rtl .portfolio-minimal-wrapper .portfolio-item .subtitle {
+    left: inherit;
+    right: 32px;
+}
+.rtl .portfolio-minimal-wrapper .portfolio-item.active .subtitle {
+    left: inherit;
+    right: 25px;
+}
+.rtl .portfolio-minimal-wrapper .portfolio-item .subtitle span {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    writing-mode: vertical-lr;
+}
+.rtl .portfolio-minimal-wrapper .portfolio-item.active .hover-title {
+    left: inherit;
+    right: 95px;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 1399px) {
+	.rtl .portfolio-minimal-wrapper .portfolio-box {
+		padding-left: inherit;
+        padding-inline-start: 30px;
+	}
+	.rtl .portfolio-minimal-wrapper .portfolio-item.active .portfolio-title {
+        padding-left: inherit;
+        padding-inline-start: 55px;
+	}
+	.rtl .portfolio-minimal-wrapper .portfolio-item.active .subtitle {
+        left: inherit;
+        right: 0;
+	}
+	.rtl .portfolio-minimal-wrapper .portfolio-item.active .hover-title {
+        left: inherit;
+        right: 65px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.rtl .portfolio-minimal-wrapper .portfolio-item.active .subtitle {
+		left: inherit;
+        right: 0;
+	}
+	.rtl .portfolio-minimal-wrapper .portfolio-item.active .hover-title {
+		left: inherit;
+        right: 60px;
+	}
+}
+
+@media (max-width: 767px) {
+	.rtl .portfolio-minimal-wrapper .portfolio-item .svg-wrapper {
+		right: inherit;
+        left: 22px;
+	}
+}
+
+@media (max-width: 575px) {
+	.rtl .portfolio-minimal-wrapper .portfolio-item .svg-wrapper {
+		right: inherit;
+        left: 20px;
+	}
+}
+/* ===================================
+    Navigation / Pagination - RTL 
+====================================== */
+/* Direction Vertical */
+.rtl .elementor-element.pagination-direction-vertical.pagination-vertical-left .swiper .swiper-pagination {
+    right: inherit;
+}
+.rtl .elementor-element.pagination-direction-vertical.pagination-vertical-right .swiper .swiper-pagination {
+    left: inherit;
+}
+
+/* Number Style 02 */
+.rtl .number-style-2 .swiper-pagination.swiper-numbers .swiper-pagination-bullet:after {
+    margin-right: 15px;
+    margin-left: 0;
+}
+.rtl .elementor-element.pagination-direction-vertical .number-style-2 .swiper-pagination.swiper-numbers .swiper-pagination-bullet:after {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Number Style 03 */
+.rtl .number-style-3.pagination-left .swiper-pagination-wrapper {
+    justify-content: end;
+}
+.rtl .number-style-3.pagination-right .swiper-pagination-wrapper {
+    justify-content: start;
+}
+
+@media (max-width: 767px) {
+    .rtl .pagination-direction-vertical.pagination-vertical-left .number-style-3.vertical .swiper-pagination-wrapper {
+        right: inherit;
+    }
+}
+
+/* ===================================
+	Newsletter - RTL
+====================================== */
+.rtl .newsletter-form-wrapper .submit-icon.icon-left i,
+.rtl .newsletter-form-wrapper .submit-icon.icon-left svg {
+	margin-right: 0 !important;
+}
+.rtl .newsletter-form-wrapper .submit-icon.icon-right i,
+.rtl .newsletter-form-wrapper .submit-icon.icon-right svg {
+	margin-left: 0 !important;
+}
+.rtl .elementor-widget-crafto-newsletter form .newsletter-checkbox input[type="checkbox"] {
+    margin: 0 0 0 7px;
+}
+
+/* Newsletter Style 01 */
+.rtl .newsletter-style-1 form input {
+	padding-inline-end: 160px;
+	padding-inline-start: 32px;
+}
+.rtl .newsletter-style-1 form button[type="submit"] {
+	right: unset;
+	left: 0;
+	border-radius: 4px 0 0 4px;
+}
+.rtl .newsletter-style-1 form button[type="submit"] .icon-left + .submit-text {
+    margin-left: 0;
+    margin-inline-start: 3px;
+}
+.rtl .newsletter-style-1 form button[type="submit"] .icon-right + .submit-text {
+	margin-right: 0;
+	margin-inline-end: 3px;
+}
+
+/* Newsletter Style 02 */
+.rtl .newsletter-style-2 form button[type="submit"] {
+	right: inherit;
+	left: 0;
+}
+.rtl .newsletter-style-2 form input {
+	padding-right: 0;
+	padding-left: 120px;
+}
+.rtl .newsletter-style-2 form button[type="submit"] .icon-left + .submit-text {
+	margin-left: 0;
+	margin-inline-start: 3px;
+}
+/* ===================================
+    Page Title - RTL
+====================================== */
+.rtl .right-alignment .crafto-main-title+span.crafto-main-subtitle:before, 
+.rtl .left-alignment .crafto-main-title+span.crafto-main-subtitle:before, 
+.rtl .center-alignment .crafto-main-title+span.crafto-main-subtitle:before, 
+.rtl .mini-version .crafto-main-title+span.crafto-main-subtitle:before {
+    left: inherit;
+    right: 0;
+}
+.rtl .right-alignment .crafto-main-title+span.crafto-main-subtitle, 
+.rtl .left-alignment .crafto-main-title+span.crafto-main-subtitle, 
+.rtl .mini-version .crafto-main-title+span.crafto-main-subtitle {
+    padding-right: 25px;
+    margin-right: 21px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/* Page Title - Center */
+.rtl .center-alignment .crafto-main-subtitle,
+.rtl .crafto-main-title-wrap.center-alignment .crafto-main-subtitle {
+    padding-left: 0;
+    padding-inline-start: 25px;
+    margin-left: 0;
+    margin-inline-start: 21px;
+}
+
+/* Page Title - Big Typography */
+.rtl .crafto-main-subtitle .separator {
+    margin-right: 0;
+    margin-inline-end: 10px;
+}
+.rtl .crafto-main-title-wrap.big-typography .crafto-main-subtitle .title-icon {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/* Page Title - Big Typography With Content */
+.rtl .big-typography-content .page-title-small-content,
+.rtl .crafto-main-title-wrap.big-typography-content .page-title-small-content {
+    padding-left: 15px;
+    padding-inline-start: 40px;
+}
+.rtl .crafto-main-title-wrap.big-typography-content .page-title-small-content .separator {
+    left: inherit;
+    right: 0;
+}
+
+/* Page Title - Big Typography With Image */
+.rtl .big-typography-image .page-title-image .cover-background {
+    margin-right: 0;
+    margin-inline-end: -20vw;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 991px) {
+    .rtl .big-typography-content .page-title-small-content,
+    .rtl .crafto-main-title-wrap.big-typography-content .page-title-small-content {
+        padding-left: 15px;
+        padding-inline-start: 15px;
+    }
+}
+/* ===================================
+    Portfolio List - RTL
+====================================== */
+/* Filter */
+.rtl .filter-wrap .crafto-button-wrapper {
+    margin-inline-start: auto;
+    margin-left: 0;
+}
+.rtl .filter-wrap .portfolio-heading {
+    margin: 0 0 0 auto;
+}
+.rtl .filter-wrap .nav-tabs {
+    padding: 0;
+}
+
+/* Portfolio Contemporary */
+.rtl .portfolio-contemporary .portfolio-icon-wrap {
+    margin-left: 0;
+    margin-inline-start: auto;
+}
+.rtl .portfolio-contemporary .portfolio-caption-text {
+    margin-right: 0;
+    margin-inline-end: auto;
+}
+.rtl .portfolio-contemporary .portfolio-icon-wrap .subtitle + .portfolio-icon {
+    right: inherit;
+    left: 0;
+}
+
+/* Portfolio Modern */
+.rtl .portfolio-modern .portfolio-box .portfolio-caption .portfolio-caption-text {
+    margin-right: 0;
+    margin-inline-end: auto;
+}
+.rtl .portfolio-modern .portfolio-box .portfolio-hover .portfolio-caption-text .subtitle,
+.rtl .portfolio-modern .portfolio-box .portfolio-hover .title {
+    text-align: right;
+}
+.rtl .portfolio-modern .portfolio-box .portfolio-caption .portfolio-icon {
+    margin-left: 0;
+    margin-inline-start: auto;
+}
+
+/* Portfolio Clean */
+.rtl .portfolio-clean .portfolio-box .portfolio-caption-text {
+    text-align: right;
+}
+
+/* Portfolio Attractive */
+.rtl .portfolio-attractive .portfolio-box .portfolio-hover .portfolio-icon {
+    right: inherit;
+    left: 15px;
+    margin-right: 0;
+    margin-inline-end: 15px;
+}
+
+/* Portfolio Boxed */
+.rtl .portfolio-boxed .portfolio-box .portfolio-icon a,
+.rtl .portfolio-simple .portfolio-box .portfolio-icon a {
+    margin-right: 4px !important;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 767px) {
+    .rtl .filter-wrap .crafto-button-wrapper {
+        margin-inline-start: 0;
+    }
+}
+/* ===================================
+    Post Taxonomy - RTL
+====================================== */
+/* Taxonomy Style 01 */
+.rtl .tags ul.post-taxonomy-style-1 li a, 
+.rtl .categories ul.post-taxonomy-style-1 li a {
+    margin-inline-end: 6px;
+    margin-inline-start: 0px;
+}
+
+/* Taxonomy Style 02 */
+.rtl .post-taxonomy-style-2 .category-title .category {
+    margin-right: 0;
+    margin-inline-end: 10px;
+}
+.rtl .post-taxonomy-style-2 .category-title .count-circle {
+    margin-left: 0;
+    margin-inline-start: auto;
+}
+
+/* Taxonomy Style 03 */
+.rtl .post-taxonomy-style-3 .category-title .category-icon {
+    right: inherit !important;
+    left: 25px;
+}
+.rtl .post-taxonomy-style-3 .category-title a:hover .category-icon {
+    left: 35px;
+}
+
+/* Taxonomy Style 04 */
+.rtl .categories ul.post-taxonomy-style-4 li span,
+.rtl .tags ul.post-taxonomy-style-4 li span {
+    right: inherit;
+    left: 0;
+}
+/* ===================================
+    Process Step - RTL
+====================================== */
+/* Process Step Style 01 */
+.rtl .process-step-style-1 .process-step-item {
+    text-align: unset;
+}
+.rtl .process-step-style-1 .process-step-item-box {
+    margin-right: 0 !important;
+    margin-inline-end: 35px
+}
+
+/* Process Step Style 06 */
+.rtl .process-step-style-6 .process-step-item:hover .process-step-item-number {
+    transform: translateX(-20px) scale(1.1);
+}
+.rtl .process-step-style-6 .process-step-item-number {
+    right: 25px;
+    left: inherit;
+}
+
+/* Process Step Style 08 */
+.rtl .process-step-style-8 .process-step-item {
+    border-right: 0;
+    border-inline-end: 1px solid #e4e4e4;
+}
+.rtl .process-step-style-8 .process-step-item:last-child {
+    border-inline-end: 0;
+}
+.rtl .process-step-style-8 .process-step-item-number {
+    margin-right: 0;
+    margin-inline-end: 15px;
+}
+.rtl .process-step-style-8 .process-step-separator {
+    margin-left: 0;
+    margin-inline-start: 15px;
+}
+
+/* Process Step Style 09 */
+.rtl .process-step-style-9 .process-step-icon-box {
+    margin-right: 0 !important;
+    margin-inline-end: 25px;
+}
+
+/* Process Step Style 10 */
+.rtl .elementor-position-left .process-step-style-10 .process-step-number {
+    margin-right: 0 !important;
+    margin-inline-end: 35px;
+}
+.rtl .elementor-position-right .process-step-style-10 .process-step-number {
+    margin-left: 0 !important;
+    margin-inline-start: 35px;
+}
+.rtl .elementor-position-right .process-step-style-10 {
+    text-align: left;
+}
+.rtl .process-step-style-2 .process-step-item:first-child .process-step-item-box .process-step-item-box-bfr, 
+.rtl .process-step-style-4 .process-step-item:first-child .process-step-item-box .process-step-item-box-bfr, 
+.rtl .process-step-style-5 .process-step-item:first-child .process-step-item-box .process-step-separator, 
+.rtl .process-step-style-7 .process-step-item:first-child .process-step-item-box .progress-right-icon {
+    display: none !important;
+}
+.rtl .process-step-style-2 .process-step-item:last-child .process-step-item-box .process-step-item-box-bfr, 
+.rtl .process-step-style-4 .process-step-item:last-child .process-step-item-box .process-step-item-box-bfr, 
+.rtl .process-step-style-5 .process-step-item:last-child .process-step-item-box .process-step-separator, 
+.rtl .process-step-style-7 .process-step-item:last-child .process-step-item-box .progress-right-icon {
+    display: block !important;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 991px) {
+    .rtl .process-step-style-2 .process-step-item:nth-child(odd) .process-step-item-box .process-step-item-box-bfr, 
+    .rtl .process-step-style-4 .process-step-item:nth-child(odd) .process-step-item-box .process-step-item-box-bfr, 
+    .rtl .process-step-style-5 .process-step-item:nth-child(odd) .process-step-item-box .process-step-item-box-bfr, 
+    .rtl .process-step-style-7 .process-step-item:nth-child(odd) .process-step-item-box .progress-right-icon {
+        display: none !important;
+    }
+    .rtl .process-step-style-2 .process-step-item:nth-child(even) .process-step-item-box .process-step-item-box-bfr, 
+    .rtl .process-step-style-4 .process-step-item:nth-child(even) .process-step-item-box .process-step-item-box-bfr, 
+    .rtl .process-step-style-5 .process-step-item:nth-child(even) .process-step-item-box .process-step-item-box-bfr, 
+    .rtl .process-step-style-7 .process-step-item:nth-child(even) .process-step-item-box .progress-right-icon {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .rtl .process-step-style-1 .process-step-item-box {
+        margin-inline-end: 25px;
+    }
+}
+
+@media (max-width: 575px) {
+    .rtl .process-step-style-2 .process-step-item:nth-child(even) .process-step-item-box .process-step-item-box-bfr, 
+    .rtl .process-step-style-4 .process-step-item:nth-child(even) .process-step-item-box .process-step-item-box-bfr, 
+    .rtl .process-step-style-5 .process-step-item:nth-child(even) .process-step-item-box .process-step-item-box-bfr, 
+    .rtl .process-step-style-7 .process-step-item:nth-child(even) .process-step-item-box .progress-right-icon,
+    .rtl .process-step-style-2 .process-step-item:last-child .process-step-item-box .process-step-item-box-bfr, 
+    .rtl .process-step-style-4 .process-step-item:last-child .process-step-item-box .process-step-item-box-bfr, 
+    .rtl .process-step-style-5 .process-step-item:last-child .process-step-item-box .process-step-separator, 
+    .rtl .process-step-style-7 .process-step-item:last-child .process-step-item-box .progress-right-icon {
+        display: none !important;
+    }
+}
+/* ===================================
+	Product List - RTL
+====================================== */
+/* Shop Standard */
+.rtl ul.shop-wrapper.shop-standard li .shop-box .shop-hover {
+    left: 12px;
+    right: inherit;
+}
+.rtl ul.shop-wrapper.shop-standard li .shop-box .shop-buttons-wrap a i {
+    margin-right: 0;
+    margin-inline-end: 6px;
+}
+
+/* Product Price */
+.rtl ul.shop-wrapper li .shop-footer .price-wrap .price ins {
+	margin-left: 0;
+    margin-right: 4px;
+}
+
+/* Sale And New */
+.rtl ul.shop-wrapper .sale-new-wrap span {
+    float: right;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 1199px) {
+    .rtl .woocommerce ul.products.crafto-shop-boxed li.product .product-buttons-wrap a,
+	.rtl ul.shop-wrapper li .shop-hover a, 
+	.rtl ul.shop-wrapper li .shop-hover .button, 
+	.rtl ul.shop-wrapper li .shop-hover .added_to_cart { 
+		border-left: 1px solid #e4e4e4 !important; 
+        border-right: 0 !important;
+	}
+    .rtl .woocommerce ul.products.crafto-shop-boxed li.product .product-buttons-wrap a:last-child,
+	.rtl ul.shop-wrapper li .shop-hover a:last-child, 
+	.rtl ul.shop-wrapper li .shop-hover .button:last-child, 
+	.rtl ul.shop-wrapper li .shop-hover .added_to_cart:last-child {
+		border-left: 0 !important;
+        border-right: 1px solid #e4e4e4; 
+	}
+    .rtl ul.shop-wrapper.shop-standard li .shop-box .shop-hover a,
+	.rtl .product-slider-style-2 .shop-hover a,
+	.rtl .product-slider-style-2 .shop-hover .button {
+        border-left: 0 !important;
+        border-right: 1px solid #e4e4e4 !important; 
+    }
+}
+/* ===================================
+	Product Slider - RTL
+====================================== */
+/* Product Slider Style 02 */
+.rtl .product-slider-style-2 .shop-buttons-wrap a i {
+    margin-right: 0;
+    margin-inline-end: 6px;
+}
+.rtl .product-slider-style-2 .shop-hover {
+    left: 12px;
+    right: inherit;
+}
+/* ===================================
+    Product Taxonomy - RTL
+====================================== */
+/* Product Taxonomy Style 01 */
+.rtl .product-taxonomy-style-1 .count-circle {
+    right: inherit;
+    left: -10px;
+}
+
+/* Product Taxonomy Style 03 */
+.rtl .product-taxonomy-style-3 .categories-box .count-circle {
+    left: 20px;
+    right: inherit;
+}
+
+/* Product Taxonomy Style 04 */
+.rtl .product-taxonomy-style-4 .categories-box .category:hover span {
+    transform: translateX(12px);
+}
+.rtl .product-taxonomy-style-4 .categories-box .category span.hover {
+    margin-left: 0;
+    margin-inline-start: -24px;
+    transform: translateX(0);
+}
+.rtl .product-taxonomy-style-4 .categories-box .category span.hover i {
+    transform: translateX(-.24px);
+}
+.rtl .product-taxonomy-style-4 .categories-box .category:hover span.hover i {
+    transform: translateX(-12px);
+}
+/* ===================================
+	Progress Bar - RTL
+====================================== */
+.rtl .crafto-progress-wrapper:not(.progress-style-2) .elementor-progress-bar .elementor-progress-percentage {
+	right: unset;
+	left: -20px;
+}
+.rtl .crafto-progress-wrapper.fixed .elementor-progress-bar .elementor-progress-percentage {
+	right: unset;
+	left: 0;
+}
+
+/* Progress Bar Style 02 */
+.rtl .progress-style-2 .elementor-progress-bar {
+	right: 0;
+}
+.rtl .progress-style-2 .elementor-progress-percentage {
+	left: 20px;
+	right: auto;
+}
+.rtl .progress-style-2 .elementor-progress-text {
+	right: 20px;
+	left: auto;
+}
+/* ===================================
+	Property List - RTL
+====================================== */
+.rtl .property-wrapper .property-icon-box .icon-text img {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .property-wrapper .property-action-wrap .elementor-button-wrapper + .property-price {
+    margin-left: inherit;
+    margin-inline-start: auto;
+}
+.rtl .property-wrapper .property-images .property-status {
+    left: inherit;
+    right: 15px;
+}
+/* ===================================
+	Slider - RTL
+====================================== */
+/* Slider Style 01 */
+.rtl .slider-style-1 .swiper-slide .number {
+    left: inherit;
+    right: 0;
+}
+
+/* Slider Style 02 */
+.rtl .swiper-rtl.slider-style-2 .content-wrapper {
+    right: inherit;
+    left: 0;
+    border-radius: 0 8px 0 0;
+}
+.rtl .swiper-rtl.slider-style-2 .content-wrapper .content-icon {
+    border-right: 0;
+    border-left: 1px solid #e4e4e4;
+}
+.swiper-rtl.slider-style-2 .content-wrapper .content-wrap {
+    padding: 0 35px 0 15px;
+}
+/* ===================================
+    Sliding Box - RTL
+====================================== */
+/* Sliding Box Style 02 */
+.rtl .crafto-sliding-box-styles-2 .sliding-box-content {
+    text-align: end;
+}
+.rtl .crafto-sliding-box-styles-2 .overlay-time {
+    left: inherit;
+    right: 25px;
+}
+.rtl .crafto-sliding-box-styles-2 .sliding-box-content .sliding-content-time i {
+    margin-right: 0;
+    margin-inline-end: 3px;
+}
+
+/* Sliding Box Style 03 */
+.rtl .crafto-sliding-box-styles-3 .sliding-box-content {
+    text-align: start;
+}
+.rtl .crafto-sliding-box-styles-3 .sliding-box-content::after {
+    right: auto;
+    left: 100%;
+    transform: rotate(180deg);
+}
+
+/* Responsive CSS Here */
+@media (max-width: 1199px) {
+    .rtl .crafto-sliding-box-styles-1 .sliding-box-content, 
+    .rtl .crafto-sliding-box-styles-2 .sliding-box-content, 
+    .rtl .crafto-sliding-box-styles-3 .sliding-box-content {
+        right: 0 !important;
+    }
+}
+/* ===================================
+	Social Icons - RTL
+====================================== */
+/* Social Icon Default CSS Here */
+.rtl .default.social-icons-wrapper ul li:first-child a.elementor-icon,
+.rtl .social-icons-wrapper ul li:first-child a.elementor-icon {
+    margin-right: 0;
+}
+.rtl .default.social-icons-wrapper ul li:last-child a.elementor-icon,
+.rtl .social-icons-wrapper ul li:last-child a.elementor-icon {
+    margin-left: 0;
+}
+
+/* Social Icon Style 03 */
+.rtl .social-icon-style-3 ul li a.elementor-icon {
+	margin-left: 15px;
+    margin-right: 0;
+}
+
+/* Social Icon Style 05 */
+.rtl .social-icon-style-5.social-icons-wrapper ul li .social-icon-text {
+    margin-left: 0;
+    margin-right: 10px;
+}
+/* ===================================
+	Social Share - RTL
+====================================== */
+.rtl .social-share-wrapper ul li a.social-sharing-icon .social-icon-text {
+    margin-left: 0;
+    margin-inline-start: 5px;
+}
+.rtl .social-share-wrapper ul li a.social-sharing-icon {
+    margin-right: 0;
+    margin-inline-end: 10px;
+}
+
+/* Social Share Style 01 */
+.rtl .social-share-style-1.social-share-wrapper ul li a.social-sharing-icon, 
+.rtl .social-share-style-1 ul li a {
+    margin-right: 0;
+    margin-inline-end: 8px;
+}
+
+/* Social Share Style 02 */
+.rtl .social-share-style-2.social-share-wrapper ul li a.social-sharing-icon {
+    margin-right: 0;
+    margin-inline-end: 25px;
+}
+.rtl .social-share-style-2.social-share-wrapper ul li:first-child a.social-sharing-icon,
+.rtl .elementor-304 .elementor-element.elementor-element-717f862 .social-share-style-2.social-share-wrapper ul li:first-child a.social-sharing-icon {
+    margin-inline-end: 25px;
+    margin-right: 0;
+}
+.rtl .social-share-style-2.social-share-wrapper ul li:last-child a.social-sharing-icon,
+.rtl .elementor-304 .elementor-element.elementor-element-717f862 .social-share-style-2.social-share-wrapper ul li:last-child a.social-sharing-icon {
+    margin-right: 0;
+    margin-inline-end: 0;
+}
+/* ===================================
+	Star Rating - RTL
+====================================== */
+.rtl .elementor-star-rating i:last-child,
+.rtl .elementor--star-style-star_unicode .elementor-star-rating i:last-child,
+.rtl .elementor--star-style-star_bootstrap .elementor-star-rating i:last-child,
+.rtl .elementor--star-style-star_bootstrap .rating-style-2 .elementor-star-rating i:last-child {
+	margin: 0;
+    margin-inline-end: 0;
+}
+
+/* Star Rating Widget Style 02 */
+.rtl .elementor--star-style-star_bootstrap .elementor-star-rating i, 
+.rtl .elementor--star-style-star_bootstrap .rating-style-2 .elementor-star-rating i,
+.rtl .elementor-star-rating i {
+    margin-right: 0;
+    margin-inline-end: 2px;
+}
+/* ===================================
+	Table - RTL
+====================================== */
+.rtl .crafto-table-body .tooltip-detail {
+    text-align: start;
+}
+.rtl .crafto-time-table-box+.crafto-time-table-box {
+    border-right-width: 0 !important;
+}
+.rtl .crafto-table-body .tooltip-detail.tooltip-left {
+    left: 0;
+	right: auto;
+}
+.rtl .crafto-table-body .tooltip-detail.tooltip-left::after {
+	right: auto;
+	left: 60px;
+}
+/* ===================================
+    Tabs - RTL
+====================================== */
+.rtl .nav-tabs .nav-item.nav-icon-left .nav-link i,
+.rtl .nav-tabs .nav-item.nav-icon-left .nav-link img,
+.rtl .nav-tabs .nav-item.nav-icon-left .nav-link svg {
+    margin-right: 0 !important;
+}
+.rtl .nav-tabs .nav-item.nav-icon-left .nav-link i {
+    margin-right: 0 !important;
+    margin-inline-end: 10px;
+}
+
+/* Tab Style 01 */
+.rtl .tab-style-1 .tab-content {
+    padding-left: 0px;
+    padding-inline-start: 15px;
+}
+
+/* Tab Style 02 */
+.rtl .tab-style-2 .nav-tabs .nav-item:first-child {
+    padding-inline-end: 20px;
+    padding-right: 0;
+}
+.rtl .tab-style-2 .nav-tabs .nav-item:last-child {
+    padding-left: 0;
+    padding-inline-start: 20px;
+}
+
+/* Tab Style 03 */
+.rtl .tab-style-3 .nav-tabs {
+    padding-right: 0;
+    padding-inline-end: 20px;
+}
+.rtl .tab-style-3 .nav-link .tab-icon {
+    margin-right: 0;
+    margin-inline-end: 10px;
+}
+.rtl .tab-style-3 .nav-link .price-wrap .tab-month {
+    margin-left: 0;
+    margin-inline-start: 10px;
+}
+
+/* Tab Style 04 */
+.rtl .tab-style-4 .nav-tabs>li.nav-item:first-child a:before {
+    right: auto;
+    left: 0;
+}
+.rtl .tab-style-4 .nav-tabs>li.nav-item:first-child a:after {
+    border-radius: 0 50em 50em 0;
+}
+.rtl .tab-style-4 .nav-tabs>li.nav-item:last-child a:before {
+    left: inherit;
+    right: 2px;
+}
+.rtl .tab-style-4 .nav-tabs>li.nav-item:last-child a:after {
+    border-radius: 50em 0 0 50em;
+}
+.rtl .tab-style-4 .nav-tabs>li.nav-item:last-child>a.nav-link .tab-nav-text {
+    margin-left: 0;
+    margin-inline-start: 15px;
+}
+.rtl .tab-style-4 .nav-tabs>li.nav-item:first-child>a.nav-link .tab-nav-text {
+    margin-right: 0;
+    margin-inline-end: 15px;
+}
+.rtl .tab-style-4 .nav-tabs li.nav-item i, 
+.rtl .tab-style-4 .nav-tabs li.nav-item svg, 
+.rtl .tab-style-4 .nav-tabs li.nav-item img {
+    margin-right: 0;
+    margin-inline-end: 15px;
+}
+.rtl .tab-style-4 .nav-tabs li.nav-item:last-child i,
+.rtl .tab-style-4 .nav-tabs li.nav-item:last-child svg, 
+.rtl .tab-style-4 .nav-tabs li.nav-item:last-child img {
+    margin-left: 0;
+    margin-inline-start: 15px;
+}
+
+/* Tab Style 05 */
+.rtl .tab-style-5 .nav-tabs .nav-item .nav-link {
+    border-right: 0;
+    border-inline-end: 1px solid #0000001A;
+}
+.rtl .tab-style-5 .nav-tabs .nav-item:first-child .nav-link {
+    border-inline-end: 1px solid #0000001A !important; 
+}
+.rtl .tab-style-5 .nav-tabs .nav-item:last-child .nav-link {
+    border-inline-end: 0 !important;
+}
+
+/* Tab Style 07 */
+.rtl .tab-style-7 .nav-tabs .nav-item .nav-link:hover .tabs-icon, 
+.rtl .tab-style-7 .nav-tabs .nav-item .nav-link.show .tabs-icon, 
+.rtl .tab-style-7 .nav-tabs .nav-item .nav-link.active .tabs-icon {
+    transform: translate(-50%, -50%);
+}
+.rtl .tab-style-7 .nav-tabs .nav-item .nav-link .tabs-icon {
+    right: inherit;
+    left: 0;
+}
+
+/* Tab Style 08 */
+.rtl .tab-style-8 .crafto-container-wrap {
+    margin-left: 0;
+    margin-inline-start: 8.33333333%;
+}
+.rtl .tab-style-8 ul {
+    padding-inline-start: 0;
+}
+.rtl .tab-style-8 .nav-tabs .nav-item .nav-link .sub-title {
+    margin-left: inherit;
+    margin-inline-start: auto;
+}
+.rtl .tab-style-8 .nav-tabs .nav-item .nav-link .tabs-number {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .tab-style-8 .nav-tabs .nav-item .nav-link:hover {
+    transform: translate3d(-10px, 0, 0);
+}
+
+/* Tab Style 09 */
+.rtl .tab-style-9 .nav-tabs .nav-item .nav-link .tabs-icon {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .tab-style-9 .nav-tabs .nav-item .nav-link .bg-hover {
+    transform-origin: right;
+}
+
+/* Tab Style 10 */
+.rtl .tab-style-10 .nav-tabs .nav-item .nav-link svg, 
+.rtl .tab-style-10 .nav-tabs .nav-item .nav-link i, 
+.rtl .tab-style-10 .nav-tabs .nav-item .nav-link img {
+    margin-right: 0;
+    margin-inline-end: 10px;
+}
+
+/* Tab Style 11 */
+.rtl .tab-style-11 .tab-content {
+    padding-left: 0px;
+    padding-inline-start: 50px;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 767px) {
+    .rtl .tab-style-5 .nav-tabs .nav-item:first-child .nav-link,
+    .rtl .tab-style-5 .nav-tabs .nav-item .nav-link {
+        border-inline-end: 0 !important;
+    }
+}
+/* ===================================
+    Team Member - RTL
+====================================== */
+/* Team Style 01 */
+.rtl .team-style-1 .social-icon a {
+    margin-right: 0 !important;
+    margin-inline-end: 22px;
+}
+.rtl .team-style-1 .social-icon a:last-child {
+    margin-right: 0 !important;
+    margin-inline-end: 0;
+}
+
+/* Team Style 03 */
+.rtl .team-style-3 .team-member-image .team-member-icon {
+    right: inherit;
+    left: -28px;
+}
+.rtl .team-style-3 .social-icon a {
+    margin-right: 0 !important;
+    margin-inline-end: 22px;
+}
+.rtl .team-style-3 .social-icon a:last-child {
+    margin-inline-end: 0 !important;
+}
+.rtl .team-style-3 .team-member-image .team-member-icon i,
+.rtl .team-style-3 .team-member-image .team-member-icon svg {
+    margin-right: 0;
+    margin-inline-end: 3px;
+}
+
+/* Team Style 05 */
+.rtl .team-style-5 .team-image .team-member-icon i,
+.rtl .team-style-5 .team-image .team-member-icon svg {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+/* Team Style 06 */
+.rtl .team-style-6 figcaption .social-icon, 
+.rtl .team-style-6 figcaption .team-member-designation {
+    margin-left: 0;
+    margin-inline-start: auto;
+}
+/* ===================================
+    Testimonial-carousel - RTL
+====================================== */
+.rtl .testimonials-wrapper .testimonials-carousel-image-box {
+    margin-right: 0;
+    margin-inline-end: 15px;
+}
+.rtl .testimonial-carousel-wrapper .carousel-title-box {
+    padding-right: 0;
+    padding-inline-end: 15px;
+}
+.rtl .el-testimonial-carousel-style-3 .testimonials-carousel-wrap,
+.rtl .el-testimonial-carousel-style-4 .testimonials-carousel-wrap,
+.rtl .el-testimonial-carousel-style-13 .testimonials-carousel-wrap,
+.rtl .el-testimonial-carousel-style-18 .testimonials-carousel-wrap {
+	padding-left: 0;
+    padding-inline-start: 15px;
+}
+
+/* Testimonial Carousal Style 01 */
+.rtl .testimonial-carousel-style-1 .testimonial-name-icon {
+    text-align: start;
+}
+.rtl .elementor-element .swiper.testimonial-carousel-style-1.navigation-left .navigation-wrapper .elementor-swiper-button {
+    margin: 0 0 0 10px;
+}
+.rtl .elementor-element .swiper.testimonial-carousel-style-1.navigation-right .navigation-wrapper .elementor-swiper-button {
+    margin: 0 10px 0 0;
+}
+
+/* Testimonial Carousal Style 03 */
+.rtl .elementor-element .testimonial-carousel-style-3 .elementor-swiper-button,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-3 .elementor-swiper-button {
+    right: 0;
+    left: inherit;
+}
+.rtl .elementor-element .testimonial-carousel-style-3 .elementor-swiper-button.elementor-swiper-button-prev,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-3 .elementor-swiper-button.elementor-swiper-button-prev {
+    right: 55px;
+}
+
+/* Testimonial Carousal Style 04 */
+.rtl .elementor-element .testimonial-carousel-style-4 .elementor-swiper-button,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-4 .elementor-swiper-button {
+    right: 0;
+    left: inherit !important;
+}
+.rtl .elementor-element .testimonial-carousel-style-4 .elementor-swiper-button.elementor-swiper-button-prev,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-4 .elementor-swiper-button.elementor-swiper-button-prev {
+    right: 55px;
+}
+.rtl .testimonial-carousel-style-4 .review-star-icon .star-rating-number {
+    margin-right: 0;
+    margin-inline-end: 10px;
+}
+.rtl .testimonial-carousel-wrapper .testimonials-carousel-wrap .testimonial-carousel-style-4 {
+    margin-right: 0 !important;
+}
+
+/* Testimonial Carousal Style 05 */
+.rtl .testimonial-carousel-style-5 .testimonials-carousel-image-box {
+    margin-inline-end: 0;
+}
+
+/* Testimonial Carousal Style 06 */
+.rtl .elementor-element .testimonial-carousel-style-6 .elementor-swiper-button,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-6 .elementor-swiper-button {
+    right: 0;
+    left: inherit !important;
+}
+.rtl .elementor-element .testimonial-carousel-style-6 .elementor-swiper-button.elementor-swiper-button-prev,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-6 .elementor-swiper-button.elementor-swiper-button-prev {
+    right: 80px;
+}
+.rtl .testimonial-carousel-style-6 .rating-icon-singular .elementor-star-rating {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+
+/* Testimonial Carousal Style 07 */
+.rtl .testimonial-carousel-style-7 .review-star-icon {
+    margin-left: 0;
+    margin-inline-start: auto;
+}
+.rtl .testimonial-carousel-style-7 .testimonial-carousel-name {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+
+/* Testimonial Carousal Style 08 */
+.rtl .elementor-element .testimonial-carousel-style-8.swiper .elementor-swiper-button-next {
+    right: inherit;
+    left: 6.5%;
+}
+.rtl .elementor-element .testimonial-carousel-style-8.swiper .elementor-swiper-button-prev {
+    left: 0%;
+    right: inherit !important;
+}
+.rtl .testimonial-carousel-style-8 .testimonial-name-icon {
+    padding-inline-end: 15px;
+    padding-inline-start: 55px;
+    border-inline-start: 1px solid #e4e4e4;
+    border-left: 0;
+}
+.rtl .testimonial-carousel-style-8 .testimonial-carousel-content, 
+.rtl .testimonial-carousel-style-8 .testimonial-carousel-title {
+    padding-left: 0;
+    padding-inline-start: 25px;
+}
+.rtl .testimonial-carousel-style-8 .testimonials-carousel-image-warp {
+    margin-right: 0;
+    margin-inline-end: 15px;
+}
+.rtl .testimonial-carousel-style-8 .testimonials-wrapper {
+    padding-inline-end: 55px;
+    padding-inline-start: 15px;
+}
+.rtl .testimonial-carousel-style-8 .testimonials-wrapper .testimonials-carousel-image-box {
+    margin-inline-end: 0;
+}
+.rtl .testimonial-carousel-style-8 .testimonials-carousel-icon-box {
+    right: unset;
+    left: -15px;
+}
+
+/* Testimonial Carousal Style 09 */
+.rtl .testimonial-carousel-style-9 .review-star-icon {
+    margin-right: 0;
+    margin-inline-end: 10px;
+}
+.rtl .testimonial-carousel-style-9 .testimonials-carousel-image-box {
+    margin-right: 0;
+    margin-inline-end: 25px;
+}
+
+/* Testimonial Carousal Style 13 */
+.rtl .testimonial-carousel-style-13.swiper-rtl .testimonial-name-icon {
+    padding: 0 16% 0 15px;
+}
+.rtl .testimonial-carousel-style-13.swiper-rtl .testimonial-name-icon .testimonial-carousel-name {
+    left: inherit;
+    right: 0;
+    transform: rotate(360deg);
+}
+.rtl .elementor-element .testimonial-carousel-style-13 .elementor-swiper-button,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-13 .elementor-swiper-button {
+    right: 0;
+    left: inherit !important;
+}
+.rtl .elementor-element .testimonial-carousel-style-13 .elementor-swiper-button.elementor-swiper-button-prev,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-13 .elementor-swiper-button.elementor-swiper-button-prev {
+    right: 55px;
+}
+
+/* Testimonial Carousal Style 15 */
+.rtl .swiper-rtl.testimonial-carousel-style-15 .testimonial-name-icon {
+    padding: 35px 95px 35px 35px;
+}
+.rtl .swiper-rtl.testimonial-carousel-style-15 .testimonial-name-icon .testimonial-carousel-name {
+    left: inherit;
+    right: 0;
+    transform: rotate(0deg);
+}
+.rtl .elementor-element .testimonial-carousel-style-15 .elementor-swiper-button-prev,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-15 .elementor-swiper-button-prev {
+    left: inherit;
+    right: 55px;
+}
+.rtl .elementor-element .testimonial-carousel-style-15 .elementor-swiper-button+.elementor-swiper-button, 
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-15 .elementor-swiper-button+.elementor-swiper-button {
+    left: inherit;
+    right: 0;
+}
+
+/* Testimonial Carousal Style 16 */
+.rtl .elementor-element.elementor-widget-crafto-testimonial-carousel .testimonial-carousel-style-16 .elementor-swiper-button {
+    left: inherit;
+}
+.rtl .elementor-element.elementor-widget-crafto-testimonial-carousel .testimonial-carousel-style-16 .elementor-swiper-button.elementor-swiper-button-prev {
+    left: inherit;
+    right: 55px;
+}
+.rtl .testimonial-carousel-style-16 .name-rating-wrap .rating-icon-singular {
+    margin-left: 0;
+    margin-inline-start: 10px;
+}
+.rtl .elementor-element.elementor-widget-crafto-testimonial-carousel .testimonial-carousel-style-16 .elementor-swiper-button {
+    right: 0;
+}
+
+/* Testimonial Carousal Style 18 */
+.rtl .elementor-element .testimonial-carousel-style-18 .elementor-swiper-button,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-18 .elementor-swiper-button {
+    right: 0;
+    left: inherit !important;
+}
+.rtl .elementor-element .testimonial-carousel-style-18 .elementor-swiper-button.elementor-swiper-button-prev,
+.rtl .elementor-element.elementor-pagination-position-outside .swiper.testimonial-carousel-style-18 .elementor-swiper-button.elementor-swiper-button-prev {
+    right: 55px;
+}
+.rtl .el-testimonial-carousel-style-18 .testimonial-carousel-content-box .testimonial-carousel-number {
+    margin-right: 0;
+    margin-inline-end: 10px;
+}
+.rtl .testimonial-carousel-style-16 .testimonials-carousel-image-box,
+.rtl .testimonial-carousel-style-17 .testimonials-carousel-image-box,
+.rtl .testimonial-carousel-style-18 .testimonials-carousel-image-box {
+    margin-inline-end: 0;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 1199px) {
+    .rtl .el-testimonial-carousel-style-4 .testimonials-carousel-wrap {
+        padding-inline-start: 0;
+    }
+    .rtl .testimonial-carousel-style-8 .testimonial-name-icon {
+        padding-inline-start: 45px;
+    }
+}
+
+@media (max-width: 991px) {
+    .rtl .elementor-element .testimonial-carousel-style-8.swiper .elementor-swiper-button-next {
+        left: 50%;
+    }
+    .rtl .elementor-element .testimonial-carousel-style-8.swiper .elementor-swiper-button-prev {
+        right: 50% !important;
+        left: inherit !important;
+    }
+    .rtl .testimonial-carousel-style-8 .testimonial-name-icon {
+        border: 0;
+        padding-inline-start: 15px;
+    }
+    .rtl .testimonial-carousel-style-8 .testimonials-wrapper {
+        padding-inline-end: 15px;
+    }
+    .rtl .testimonial-carousel-style-8 .testimonial-carousel-content, 
+    .rtl .testimonial-carousel-style-8 .testimonial-carousel-title,
+    .rtl .el-testimonial-carousel-style-18 .testimonials-carousel-wrap {
+        padding: 0;
+    }
+    .rtl .testimonial-carousel-style-8 .testimonials-carousel-icon-box {
+        right: inherit;
+        left: 0;
+    }
+    .rtl .el-testimonial-carousel-style-13 .testimonial-carousel-wrapper .carousel-title-box {
+        padding-right: 15px;
+    }
+    .rtl .el-testimonial-carousel-style-13 .testimonials-carousel-wrap {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .rtl .testimonial-carousel-style-13.swiper-rtl .testimonial-name-icon {
+        padding: 0;
+    }
+    .rtl .testimonial-carousel-style-13 .testimonial-name-icon .testimonial-carousel-name {
+        width: 100%;
+        display: block;
+        text-align: inherit;
+    }
+    .rtl .testimonial-carousel-style-13.swiper-rtl .testimonial-name-icon .testimonial-carousel-name {
+        transform: rotate(0);
+    }
+}
+/* ===================================
+    Testimonial - RTL
+====================================== */
+.rtl .testimonials .testimonials-author img {
+    margin-right: unset;
+    margin-inline-end: 15px;
+}
+
+/* Testimonials Style 02 */
+.rtl .testimonials-style-2 .testimonial-content::after {
+    right: 50px;
+    left: unset;
+}
+
+/* Testimonials Style 03 */
+.rtl .testimonials-style-3 .testimonial-content:after, 
+.rtl .testimonials-style-3 .testimonial-content:before {
+    left: inherit;
+    right: 50px;
+}
+.rtl .testimonials-style-3 .testimonial-content:after {
+    margin-left: 0;
+    margin-inline-start: 1px;
+}
+
+/* Testimonials Style 04 */
+.rtl .testimonials-style-4 .review-star-icon .star-rating-number {
+    margin-right: 0;
+    margin-inline-end: 10px;
+}
+
+/* Testimonials Style 05 */
+.rtl .testimonials-style-5 .testimonial-footer .elementor-star-rating {
+    margin-left: 0 !important;
+    margin-inline-start: auto !important;
+}
+.rtl .testimonials-style-5 .testimonial-footer .testimonial-name {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .testimonials-style-5 .testimonial-footer .elementor-star-rating i,
+.rtl .testimonials-style-6 .elementor-star-rating i {
+    margin-right: 0;
+    margin-inline-end: 1px;
+}
+.rtl .testimonials-style-5 .testimonial-footer .elementor-star-rating i:last-child {
+    margin-left: 0 !important; 
+}
+
+/* Testimonials Style 06 */
+.rtl .testimonials-style-6 .testimonial-footer .testimonial-position {
+    padding-left: 0;
+    padding-right: 4px;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 1199px) {
+    .rtl .testimonials-style-5 .testimonial-footer {
+        padding-inline-start: 30px;
+        padding-inline-end: 35px; 
+    }
+}
+
+@media (max-width: 575px) {
+    .rtl .testimonials-style-5 .testimonial-footer {
+        padding-inline-start: 15px;
+        padding-inline-end: 15px; 
+    }
+}
+/* ===================================
+	Text Slider - RTL
+====================================== */
+/* Text Slider Style 02 */
+.rtl .text-slider-style-2 .swiper-slider .slider-content .title {
+    margin: 0 0 0 5px;
+}
+/* ===================================
+	Tour Header - RTL
+====================================== */
+.rtl .trip-header-wrapper .pricing-wrapper {
+    text-align: left;
+}
+.rtl .trip-header-wrapper .title-rating-wrapper {
+    padding-right: 0;
+    padding-inline-end: 30px;
+    padding-left: 0;
+    padding-inline-start: 15px;
+}
+.rtl .trip-header-wrapper .title-rating-wrapper ul li {
+    margin-right: 0;
+    margin-inline-end: 20px;
+}
+.rtl .trip-header-wrapper .title-rating-wrapper ul li.trip-destinations i {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .trip-header-wrapper .review-star-icon {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .trip-header-wrapper .elementor-star-rating i {
+    margin-right: 0;
+    margin-inline-end: 1px;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 767px) {
+    .rtl .trip-header-wrapper .title-rating-wrapper {
+        padding-inline-end: 15px;
+        padding-inline-start: 15px;
+    }
+    .rtl .trip-header-wrapper .pricing-wrapper {
+        text-align: right;
+    }
+}
+/* ===================================
+	Tour Meta - RTL
+====================================== */
+.rtl .tours-meta-wrapper .tours-meta-box li:not(:last-child) {
+    margin-right: 0;
+    margin-inline-end: 30px;
+}
+.rtl .tours-meta-wrapper .tours-meta-box li i {
+    margin-right: 0;
+    margin-inline-end: 10px;
+}
+/* ===================================
+	Tour - RTL
+====================================== */
+.rtl .tours-packages-wrapper.swiper-rtl .tours-content-wrapper .tours-day {
+    left: 0;
+    right: inherit;
+}
+.rtl .tours-packages-wrapper.swiper.swiper-rtl .tours-content-wrapper .destination-review-wrap .tours-reviews {
+    margin-right: 0;
+    margin-inline-end: auto;
+}
+
+/* Default */
+.rtl .tours-packages-wrapper .tours-content-wrapper .tours-day {
+    left: 0;
+    right: inherit;
+}
+.rtl .tours-packages-wrapper .tours-content-wrapper .destination-review-wrap .destinations {
+    margin-right: 0;
+    margin-inline-end: auto;
+}
+.rtl .tours-packages-wrapper .tours-content-wrapper .destination-review-wrap .destinations a i {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .tours-packages-wrapper .tours-content-wrapper .destination-review-wrap .review-star-icon {
+    margin-right: 0;
+    margin-inline-end: 5px;
+}
+.rtl .tours-packages-wrapper .tours-content-wrapper .tours-discount-price {
+    margin-left: 0;
+    margin-right: 2px;
+}
+.rtl .tours-packages-wrapper.swiper .tours-content-wrapper .destination-review-wrap .review-star-icon {
+    margin-left: 0;
+    margin-inline-end: 0;
+}
+/* ===================================
+	Vertical Portfolio - RTL
+====================================== */
+.rtl .swiper-rtl.vertical-portfolio-slider .portfolio-item .title {
+	right: inherit !important;
+	left: -120px;
+}
+.rtl .swiper-rtl.vertical-portfolio-slider .portfolio-item .subtitle-main-wrap {
+	left: inherit;
+	right: 0;
+}
+.rtl .swiper-rtl.vertical-portfolio-slider .portfolio-item .number-wrap {
+	right: inherit;
+	left: 40px;
+}
+.rtl .swiper-rtl.vertical-portfolio-slider .portfolio-item .content-wrap {
+	padding-left: 0;
+	padding-right: 45px;
+}
+.rtl .swiper-rtl.vertical-portfolio-slider .portfolio-item .subtitle-wrap .subtitle {
+	transform: rotate(360deg);
+}
+.rtl .swiper-rtl.vertical-portfolio-slider .portfolio-item .number-wrap span {
+	margin-right: 0 !important;
+	margin-inline-end: 10px;
+}
+
+/* Pagination */
+.rtl .swiper-rtl.vertical-portfolio-slider .swiper-pagination-vertical.swiper-pagination-bullets {
+    right: inherit !important;
+    left: 60px;
+}
+.rtl .elementor-element .swiper-rtl.vertical-portfolio-slider.number-style-3.vertical .swiper-pagination-wrapper {
+	right: inherit !important;
+    left: 40px;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 991px) {
+	.rtl .swiper-rtl.vertical-portfolio-slider .portfolio-item .title {
+		left: 0;
+		padding-left: 0;
+		padding-right: 45px;
+	}
+}
+
+@media (max-width: 767px) {
+	.rtl .swiper-rtl.vertical-portfolio-slider .portfolio-item .content-wrap {
+		padding-left: 25px;
+	}
+}
+
+@media (max-width: 575px) {
+	.rtl .swiper-rtl.vertical-portfolio-slider .portfolio-item .content-wrap {
+		padding-left: 25px;
+		padding-right: 0;
+	}
+	.rtl .swiper-rtl.vertical-portfolio-slider .portfolio-item .title {
+		padding-right: 0;
+	}
+}
+/* ===================================
+	Video Button - RTL
+====================================== */
+.rtl .video-icon-left .video-icon {
+    margin-right: 0 !important;
+    margin-inline-end: 10px;
+}
+.rtl .video-icon-right .video-icon {
+    margin-left: 0 !important;
+    margin-inline-start: 10px;
+}
+
+/* Video Button Style 04 */
+.rtl .video-button-style-4 .video-icon .video-title {
+    margin-left: 0;
+    margin-inline-start: -13px;
+}
+.rtl .video-button-style-4 .video-icon i,
+.rtl .video-button-style-4 .video-icon svg,
+.rtl .video-button-style-4 .video-icon img {
+    margin-left: 0;
+    margin-inline-start: 6px;
+}
+.rtl .video-button-style-4 .video-icon i+i,
+.rtl .video-button-style-4 .video-icon svg + svg,
+.rtl .video-button-style-4 .video-icon img + img {
+    transform: translateX(10px);
+}
+.rtl .video-button-style-4 .video-icon-box:hover .video-icon .video-title {
+    transform: translateX(-19px);
+}
+.rtl .video-button-style-4 .video-icon-box:hover .video-icon i,
+.rtl .video-button-style-4 .video-icon-box:hover .video-icon svg,
+.rtl .video-button-style-4 .video-icon-box:hover .video-icon img {
+    transform: translateX(-10px);
+}
+.rtl .video-button-style-4 .video-icon-box:hover .video-icon i+i,
+.rtl .video-button-style-4 .video-icon-box:hover .video-icon svg + svg,
+.rtl .video-button-style-4 .video-icon-box:hover .video-icon img + img {
+    transform: translateX(0);
+}

@@ -1,0 +1,31 @@
+/* ===================================
+	Preloader
+====================================== */
+.preloader-overlay {
+	overflow: hidden;
+	position: relative;
+	opacity: 1;
+	transition: all 0s ease-in-out;
+	-webkit-transition: all 0s ease-in-out;
+	z-index: 99;
+}
+.preloader-overlay .preloader {
+	width: 50px;
+	padding: 4px;
+	aspect-ratio: 1;
+	border-radius: 50%;
+	background: #000;  
+	-webkit-mask: conic-gradient(#0000 10%,#000), 
+	linear-gradient(#000 0 0) content-box;
+	mask: conic-gradient(#0000 10%,#000),
+	linear-gradient(#000 0 0) content-box;
+	-webkit-mask-composite: source-out;
+	mask-composite: subtract;
+	animation: search-loader 1s infinite linear;
+}
+
+@keyframes search-loader {
+	to{
+		transform: rotate(1turn)
+	}
+}

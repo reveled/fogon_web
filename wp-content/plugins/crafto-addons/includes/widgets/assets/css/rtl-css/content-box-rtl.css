@@ -1,0 +1,99 @@
+/* ===================================
+	Content Box - RTL
+====================================== */
+/* Content Block Style 01 */
+.rtl .content-block-style-1 .content-wrap .review-number {
+	margin-left: 0;
+	margin-right: 8px;
+}
+
+/* Content Block Style 02 */
+.rtl .elementor-widget-crafto-content-block.elementor-position-left .content-block-style-2 .elementor-icon {
+	margin-right: 0;
+	margin-inline-end: var(--icon-box-icon-margin, 15px);;
+}
+.rtl .elementor-widget-crafto-content-block.elementor-position-right .content-block-style-2 .elementor-icon {
+	margin-left: 0;
+	margin-inline-start: var(--icon-box-icon-margin, 15px);
+}
+
+/* Content Block Style 03 */
+.rtl .content-block-style-3 .number {
+    left: inherit;
+	right: 0;
+	padding-left: 0;
+    padding-inline-start: 19%;
+}
+
+/* Content Block Style 04 */
+.rtl .content-block-style-4 {
+	text-align: right;
+}
+.rtl .content-block-style-4 .big-title {
+	left: inherit;
+	right: 50%;
+}
+.rtl .content-block-style-4:hover .big-title {
+	left: inherit;
+	right: -25%;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 1399px) {
+	.rtl .elementor-widget-crafto-content-block.elementor-laptop-position-right .content-block-style-2 .elementor-icon {
+		margin-left: 0;
+		margin-inline-start: var(--icon-box-icon-margin, 15px);
+	}
+	.rtl .elementor-widget-crafto-content-block.elementor-laptop-position-left .content-block-style-2 .elementor-icon {
+		margin-right: 0;
+		margin-inline-end: var(--icon-box-icon-margin, 15px);
+	}
+}
+
+@media (max-width: 1199px) {
+	.rtl .elementor-widget-crafto-content-block.elementor-tablet_extra-position-right .content-block-style-2 .elementor-icon {
+		margin-left: 0;
+		margin-inline-start: var(--icon-box-icon-margin, 15px);
+	}
+	.rtl .elementor-widget-crafto-content-block.elementor-tablet_extra-position-left .content-block-style-2 .elementor-icon {
+		margin-right: 0;
+		margin-inline-end: var(--icon-box-icon-margin, 15px);
+	}
+}
+
+@media (max-width: 911px) {
+	.rtl .elementor-widget-crafto-content-block.elementor-tablet-position-right .content-block-style-2 .elementor-icon {
+		margin-left: 0;
+		margin-inline-start: var(--icon-box-icon-margin, 15px);
+	}
+	.rtl .elementor-widget-crafto-content-block.elementor-tablet-position-left .content-block-style-2 .elementor-icon {
+		margin-right: 0;
+		margin-inline-end: var(--icon-box-icon-margin, 15px);
+	}
+}
+
+@media (max-width: 767px) {
+	.rtl .content-block-style-3 .number {
+		padding-inline-start: 0;
+		right: 0;
+	}
+	.rtl .elementor-widget-crafto-content-block.elementor-mobile_extra-position-right .content-block-style-2 .elementor-icon {
+		margin-left: 0;
+		margin-inline-start: var(--icon-box-icon-margin, 15px);
+	}
+	.rtl .elementor-widget-crafto-content-block.elementor-mobile_extra-position-left .content-block-style-2 .elementor-icon {
+		margin-right: 0;
+		margin-inline-end: var(--icon-box-icon-margin, 15px);
+	}
+}
+
+@media (max-width: 575px) {
+	.rtl .elementor-widget-crafto-content-block.elementor-mobile-position-right .content-block-style-2 .elementor-icon {
+		margin-left: 0;
+		margin-inline-start: var(--icon-box-icon-margin, 15px);
+	}
+	.rtl .elementor-widget-crafto-content-block.elementor-mobile-position-left .content-block-style-2 .elementor-icon {
+		margin-right: 0;
+		margin-inline-end: var(--icon-box-icon-margin, 15px);
+	}
+}

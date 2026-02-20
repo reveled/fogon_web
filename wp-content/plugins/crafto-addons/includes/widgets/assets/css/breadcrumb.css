@@ -1,0 +1,35 @@
+/* ===================================
+	Breadcrumb
+====================================== */
+.breadcrumb-container .crafto-breadcrumb {
+    margin-bottom: 0;
+}
+.crafto-breadcrumb {
+	padding: 0;
+	margin: 0;
+	line-height: normal;
+}
+.crafto-breadcrumb span {
+	display: inline-block;
+}
+.crafto-breadcrumb i,
+.crafto-breadcrumb svg {
+	font-weight: 900;
+	font-size: 13px;
+	margin: -1px 5px 0 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.crafto-breadcrumb,
+.crafto-breadcrumb a {
+	font-size: 13px;
+}
+.crafto-breadcrumb a:hover {
+	color: var( --e-global-color-secondary, #232323 );
+}
+.breadcrumb-container {
+	border-bottom: 1px solid #ededed;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	display: block;
+}

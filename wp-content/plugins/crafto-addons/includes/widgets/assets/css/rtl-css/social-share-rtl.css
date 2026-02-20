@@ -1,0 +1,34 @@
+/* ===================================
+	Social Share - RTL
+====================================== */
+.rtl .social-share-wrapper ul li a.social-sharing-icon .social-icon-text {
+    margin-left: 0;
+    margin-inline-start: 5px;
+}
+.rtl .social-share-wrapper ul li a.social-sharing-icon {
+    margin-right: 0;
+    margin-inline-end: 10px;
+}
+
+/* Social Share Style 01 */
+.rtl .social-share-style-1.social-share-wrapper ul li a.social-sharing-icon, 
+.rtl .social-share-style-1 ul li a {
+    margin-right: 0;
+    margin-inline-end: 8px;
+}
+
+/* Social Share Style 02 */
+.rtl .social-share-style-2.social-share-wrapper ul li a.social-sharing-icon {
+    margin-right: 0;
+    margin-inline-end: 25px;
+}
+.rtl .social-share-style-2.social-share-wrapper ul li:first-child a.social-sharing-icon,
+.rtl .elementor-304 .elementor-element.elementor-element-717f862 .social-share-style-2.social-share-wrapper ul li:first-child a.social-sharing-icon {
+    margin-inline-end: 25px;
+    margin-right: 0;
+}
+.rtl .social-share-style-2.social-share-wrapper ul li:last-child a.social-sharing-icon,
+.rtl .elementor-304 .elementor-element.elementor-element-717f862 .social-share-style-2.social-share-wrapper ul li:last-child a.social-sharing-icon {
+    margin-right: 0;
+    margin-inline-end: 0;
+}

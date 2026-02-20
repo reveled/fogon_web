@@ -1,0 +1,68 @@
+/* ===================================
+    Portfolio List - RTL
+====================================== */
+/* Filter */
+.rtl .filter-wrap .crafto-button-wrapper {
+    margin-inline-start: auto;
+    margin-left: 0;
+}
+.rtl .filter-wrap .portfolio-heading {
+    margin: 0 0 0 auto;
+}
+.rtl .filter-wrap .nav-tabs {
+    padding: 0;
+}
+
+/* Portfolio Contemporary */
+.rtl .portfolio-contemporary .portfolio-icon-wrap {
+    margin-left: 0;
+    margin-inline-start: auto;
+}
+.rtl .portfolio-contemporary .portfolio-caption-text {
+    margin-right: 0;
+    margin-inline-end: auto;
+}
+.rtl .portfolio-contemporary .portfolio-icon-wrap .subtitle + .portfolio-icon {
+    right: inherit;
+    left: 0;
+}
+
+/* Portfolio Modern */
+.rtl .portfolio-modern .portfolio-box .portfolio-caption .portfolio-caption-text {
+    margin-right: 0;
+    margin-inline-end: auto;
+}
+.rtl .portfolio-modern .portfolio-box .portfolio-hover .portfolio-caption-text .subtitle,
+.rtl .portfolio-modern .portfolio-box .portfolio-hover .title {
+    text-align: right;
+}
+.rtl .portfolio-modern .portfolio-box .portfolio-caption .portfolio-icon {
+    margin-left: 0;
+    margin-inline-start: auto;
+}
+
+/* Portfolio Clean */
+.rtl .portfolio-clean .portfolio-box .portfolio-caption-text {
+    text-align: right;
+}
+
+/* Portfolio Attractive */
+.rtl .portfolio-attractive .portfolio-box .portfolio-hover .portfolio-icon {
+    right: inherit;
+    left: 15px;
+    margin-right: 0;
+    margin-inline-end: 15px;
+}
+
+/* Portfolio Boxed */
+.rtl .portfolio-boxed .portfolio-box .portfolio-icon a,
+.rtl .portfolio-simple .portfolio-box .portfolio-icon a {
+    margin-right: 4px !important;
+}
+
+/* Responsive CSS Here */
+@media (max-width: 767px) {
+    .rtl .filter-wrap .crafto-button-wrapper {
+        margin-inline-start: 0;
+    }
+}

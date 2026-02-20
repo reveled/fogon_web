@@ -1,0 +1,10 @@
+.elementor-add-new-section .elementor-add-crafto-button {
+    padding: 0;
+    order: 1;
+}
+.elementor-editor-active .elementor-add-section-drag-title {
+    order: 5;
+}
+.elementor-editor-active .elementor-add-section-area-button.e-button-primary {
+    order: 4;
+}

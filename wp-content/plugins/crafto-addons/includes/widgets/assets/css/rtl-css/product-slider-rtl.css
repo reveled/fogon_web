@@ -1,0 +1,12 @@
+/* ===================================
+	Product Slider - RTL
+====================================== */
+/* Product Slider Style 02 */
+.rtl .product-slider-style-2 .shop-buttons-wrap a i {
+    margin-right: 0;
+    margin-inline-end: 6px;
+}
+.rtl .product-slider-style-2 .shop-hover {
+    left: 12px;
+    right: inherit;
+}
