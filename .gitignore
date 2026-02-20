@@ -1,0 +1,84 @@
+# ==============================
+# WordPress Core
+# ==============================
+/index.php
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+/wp-admin/
+/wp-includes/
+
+# ==============================
+# Configuración sensible
+# ==============================
+/wp-config.php
+
+# ==============================
+# Verificaciones de propiedad
+# ==============================
+/BingSiteAuth.xml
+/google*.html
+/.well-known/
+
+# ==============================
+# wp-content: ignorar todo por defecto
+# ==============================
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/upgrade-temp-backup/
+/wp-content/ai1wm-backups/
+/wp-content/debug.log
+/wp-content/index.php
+/wp-content/languages/
+
+# Plugins de terceros (se gestionan por separado)
+/wp-content/plugins/
+
+# Todos los temas excepto el nuestro
+/wp-content/themes/*
+!/wp-content/themes/hello-theme-child-master/
+
+# ==============================
+# Node / Build
+# ==============================
+node_modules/
+/wp-content/themes/node_modules/
+.npm
+.env
+.env.local
+
+# ==============================
+# Archivos del sistema
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Editores
+# ==============================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ==============================
+# Logs y temporales
+# ==============================
+*.log
+*.tmp
+*.bak
