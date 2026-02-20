@@ -45,6 +45,8 @@
 /wp-content/languages/
 /wp-content/litespeed/
 /wp-content/mu-plugins/
+/wp-content/.litespeed_conf.dat
+/wp-content/debug.log
 
 # Plugins: ignorar todos excepto los premium/personalizados
 /wp-content/plugins/*
