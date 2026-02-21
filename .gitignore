@@ -24,6 +24,7 @@
 # Configuración sensible
 # ==============================
 /wp-config.php
+/sync-to-prod.sh
 
 # ==============================
 # Verificaciones de propiedad
