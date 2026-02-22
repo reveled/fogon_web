@@ -92,3 +92,9 @@ desktop.ini
 *.log
 *.tmp
 *.bak
+
+# ==============================
+# Backups SQL y artefactos locales
+# ==============================
+*.sql
+/81
