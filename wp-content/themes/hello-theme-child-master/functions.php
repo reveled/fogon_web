@@ -27,7 +27,7 @@ function hello_elementor_child_scripts_styles() {
 		'hello-elementor-child-style',
 		get_stylesheet_directory_uri() . '/style.css',
 		[
-			
+			'hello-elementor-theme-style',
 		],
 		HELLO_ELEMENTOR_CHILD_VERSION
 	);
