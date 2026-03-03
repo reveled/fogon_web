@@ -1,5 +1,4 @@
 <?php
-
 /**
  * FormValidator class
  * 
@@ -586,26 +585,41 @@ class TemplateImport
       if(is_serialized($droip_data)){
         $droip_data = maybe_unserialize($droip_data);
       }
-      foreach ($block_ids as $key => $block_id) {
-        if($post->post_type === 'droip_symbol'){
-          if(isset($droip_data['data'][$block_id]['properties']['attributes']['href'])) {
-            $old_href = $droip_data['data'][$block_id]['properties']['attributes']['href'];
-            if(isset($this->post_id_tracker[$old_href])) {
-              $droip_data['data'][$block_id]['properties']['attributes']['href'] = $this->post_id_tracker[$old_href];
+      foreach ($block_ids as $key => $block_id_or_array) {
+        // if $block_id_or_array is array then it is a symbol
+        if(is_array($block_id_or_array)){
+          $b_id = $block_id_or_array['id'];
+          $ele_id = $block_id_or_array['ele_id'];
+          $type = $block_id_or_array['type'];
+          if($type === 'symbol'){
+            if(isset($droip_data['data'][$b_id]['properties']['symbolElProps'][$ele_id]['type'], $droip_data['data'][$b_id]['properties']['symbolElProps'][$ele_id]['attributes']['href'])) {
+              $old_href = $droip_data['data'][$b_id]['properties']['symbolElProps'][$ele_id]['attributes']['href'];
+              if(isset($this->post_id_tracker[$old_href])) {
+                $droip_data['data'][$b_id]['properties']['symbolElProps'][$ele_id]['attributes']['href'] = $this->post_id_tracker[$old_href];
+              }
             }
           }
-        }else if($post->post_type === 'droip_popup'){
-          if(isset($droip_data[$block_id]['properties']['attributes']['href'])) {
-            $old_href = $droip_data[$block_id]['properties']['attributes']['href'];
-            if(isset($this->post_id_tracker[$old_href])) {
-              $droip_data[$block_id]['properties']['attributes']['href'] = $this->post_id_tracker[$old_href];
+        } else {
+          if($post->post_type === 'droip_symbol'){
+            if(isset($droip_data['data'][$block_id_or_array]['properties']['attributes']['href'])) {
+              $old_href = $droip_data['data'][$block_id_or_array]['properties']['attributes']['href'];
+              if(isset($this->post_id_tracker[$old_href])) {
+                $droip_data['data'][$block_id_or_array]['properties']['attributes']['href'] = $this->post_id_tracker[$old_href];
+              }
             }
-          }
-        }else{
-          if(isset($droip_data['blocks'][$block_id]['properties']['attributes']['href'])) {
-            $old_href = $droip_data['blocks'][$block_id]['properties']['attributes']['href'];
-            if(isset($this->post_id_tracker[$old_href])) {
-              $droip_data['blocks'][$block_id]['properties']['attributes']['href'] = $this->post_id_tracker[$old_href];
+          }else if($post->post_type === 'droip_popup'){
+            if(isset($droip_data[$block_id_or_array]['properties']['attributes']['href'])) {
+              $old_href = $droip_data[$block_id_or_array]['properties']['attributes']['href'];
+              if(isset($this->post_id_tracker[$old_href])) {
+                $droip_data[$block_id_or_array]['properties']['attributes']['href'] = $this->post_id_tracker[$old_href];
+              }
+            }
+          }else{
+            if(isset($droip_data['blocks'][$block_id_or_array]['properties']['attributes']['href'])) {
+              $old_href = $droip_data['blocks'][$block_id_or_array]['properties']['attributes']['href'];
+              if(isset($this->post_id_tracker[$old_href])) {
+                $droip_data['blocks'][$block_id_or_array]['properties']['attributes']['href'] = $this->post_id_tracker[$old_href];
+              }
             }
           }
         }
@@ -1269,6 +1283,30 @@ class TemplateImport
         }
         
     }
+
+
+    // for symbol link
+    if($block['name'] === 'symbol'){
+      if(isset($block['properties']['symbolElProps'])){
+        foreach ($block['properties']['symbolElProps'] as $ele_id => $v) {
+          if(isset($block['properties']['symbolElProps'][$ele_id]['type'],$block['properties']['symbolElProps'][$ele_id]['attributes'], $block['properties']['symbolElProps'][$ele_id]['attributes']['href'])){
+            $href = $block['properties']['symbolElProps'][$ele_id]['attributes']['href'];
+            if (is_numeric($href) && intval($href) == $href) {
+              if( isset($this->post_id_tracker[$href]) ){
+                $block['properties']['symbolElProps'][$ele_id]['attributes']['href'] = $this->post_id_tracker[$href];
+              } else {
+                if(isset($this->droip_data_link_tracker[$post_id])){ 
+                  $this->droip_data_link_tracker[$post_id][] = ['id' => $block['id'], 'ele_id' => $ele_id, 'type' => 'symbol'];
+                } else {
+                  $this->droip_data_link_tracker[$post_id] = array(['id' => $block['id'], 'ele_id' => $ele_id, 'type' => 'symbol']);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
     return $block;
   }
   

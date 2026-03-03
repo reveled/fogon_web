@@ -863,12 +863,14 @@ private function processElementStyles($ele_id, $animation) {
 					$name = '--'. $variable['id'];
 					if($variable['type'] === 'size'){
 						$value = $variable['value'][$mode]['value'] . $variable['value'][$mode]['unit'];
+						$s .= "$name:$value;";
 					}else if($variable['type'] === 'font-family'){
 						$value = "'" . $variable['value'][$mode] . "'";
-					}else {
+						$s .= "$name:$value;";
+					}else if($variable['type'] === 'color'){
 						$value = $variable['value'][$mode];
+						$s .= "$name:$value;";
 					}
-					$s .= "$name:$value;";
 				}
 			}
 		}

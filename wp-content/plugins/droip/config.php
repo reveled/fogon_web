@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-define('DROIP_VERSION', '2.5.6');
+define('DROIP_VERSION', '2.5.7');
 define( 'DROIP_CORE_PLUGIN_URL', 'https://droip.com' );
 define( 'DROIP_PUBLIC_ASSETS_DOMAIN', 'droip.s3.amazonaws.com' );
 define( 'DROIP_PUBLIC_ASSETS_URL', 'https://' . DROIP_PUBLIC_ASSETS_DOMAIN . '/dist' );

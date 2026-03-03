@@ -7,7 +7,7 @@
  * Plugin Name: Droip
  * Plugin URI: https://droip.com
  * Description: Droip is an all-in-one no-code builder that empowers users to build professional-grade WordPress sites without writing any code. It’s a promising glimpse into the future of website development.
- * Version: 2.5.6
+ * Version: 2.5.7
  * Author: Droip
  * Author URI: https://droip.com
  * Text Domain: droip

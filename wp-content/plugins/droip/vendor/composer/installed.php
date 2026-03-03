@@ -3,7 +3,7 @@
         'name' => 'ollyo/droip',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '44242684b05b63e2188fdc58d72eab59c1675190',
+        'reference' => 'c1a36f83b7857598b28978940af308656dae7a0f',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -58,7 +58,7 @@
         'ollyo/droip' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '44242684b05b63e2188fdc58d72eab59c1675190',
+            'reference' => 'c1a36f83b7857598b28978940af308656dae7a0f',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
